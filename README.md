@@ -27,8 +27,9 @@ all what we need to do left is to create our database and run the following file
     Go to: storage/public/database
 
     1.run the file get-data.py
-    2.go to your database management application create a database called masonite and a table called stats
-    3.open the file data-to-db.py:
+    2.go to your database management application create a database called masonite 
+    3.inside your terminal run the command "craft migrate"
+    4.open the file data-to-db.py:
         1.configure your database 
         2.run the file
     

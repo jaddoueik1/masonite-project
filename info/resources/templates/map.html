@@ -1,0 +1,3587 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_45af21769bbf4c54832f4f9aa68be3db {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_45af21769bbf4c54832f4f9aa68be3db" ></div>
+        
+</body>
+<script>    
+    
+            var map_45af21769bbf4c54832f4f9aa68be3db = L.map(
+                "map_45af21769bbf4c54832f4f9aa68be3db",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4f14751700634a5fab77b618a72f59ea = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_45af21769bbf4c54832f4f9aa68be3db);
+        
+    
+            var marker_cluster_795fbfc748c248dcb0fe894193401741 = L.markerClusterGroup(
+                {}
+            );
+            map_45af21769bbf4c54832f4f9aa68be3db.addLayer(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+            var circle_marker_dfe98393c42e4990af3d2289c9825fbe = L.circleMarker(
+                [7.8699430999999995, 29.6667897],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_59f8f9f3885d4396ae924853ededd180 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94197d6619ba47febcdcec1bd7b6be5f = $(`<div id="html_94197d6619ba47febcdcec1bd7b6be5f" style="width: 100.0%; height: 100.0%;">South Sudan Total Cases:194</div>`)[0];
+            popup_59f8f9f3885d4396ae924853ededd180.setContent(html_94197d6619ba47febcdcec1bd7b6be5f);
+        
+
+        circle_marker_dfe98393c42e4990af3d2289c9825fbe.bindPopup(popup_59f8f9f3885d4396ae924853ededd180)
+        ;
+
+        
+    
+    
+            var circle_marker_c74888cbe66d478d96c22c250748e1ec = L.circleMarker(
+                [33.7680065, 66.2385139],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_66fe6478c4714f8d83f7478e653faa28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7e78519d9f74b09940dbfb639f6868b = $(`<div id="html_f7e78519d9f74b09940dbfb639f6868b" style="width: 100.0%; height: 100.0%;">Afghanistan Total Cases:5226</div>`)[0];
+            popup_66fe6478c4714f8d83f7478e653faa28.setContent(html_f7e78519d9f74b09940dbfb639f6868b);
+        
+
+        circle_marker_c74888cbe66d478d96c22c250748e1ec.bindPopup(popup_66fe6478c4714f8d83f7478e653faa28)
+        ;
+
+        
+    
+    
+            var circle_marker_3ae71e454157400aa3db5544a88b94e4 = L.circleMarker(
+                [41.000028, 19.9999619],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_03b894cceda34cfabd22ebe18610c580 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7cbe895e93be4f998858b832c3d0fa3f = $(`<div id="html_7cbe895e93be4f998858b832c3d0fa3f" style="width: 100.0%; height: 100.0%;">Albania Total Cases:880</div>`)[0];
+            popup_03b894cceda34cfabd22ebe18610c580.setContent(html_7cbe895e93be4f998858b832c3d0fa3f);
+        
+
+        circle_marker_3ae71e454157400aa3db5544a88b94e4.bindPopup(popup_03b894cceda34cfabd22ebe18610c580)
+        ;
+
+        
+    
+    
+            var circle_marker_82acbe1487b54eff9ec562b19b4b56a1 = L.circleMarker(
+                [28.000027199999998, 2.9999825],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_d881690f795642258c1a6bd9f78c0de4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63ce641668b64c5f8d2fbc0ab95115b5 = $(`<div id="html_63ce641668b64c5f8d2fbc0ab95115b5" style="width: 100.0%; height: 100.0%;">Algeria Total Cases:6253</div>`)[0];
+            popup_d881690f795642258c1a6bd9f78c0de4.setContent(html_63ce641668b64c5f8d2fbc0ab95115b5);
+        
+
+        circle_marker_82acbe1487b54eff9ec562b19b4b56a1.bindPopup(popup_d881690f795642258c1a6bd9f78c0de4)
+        ;
+
+        
+    
+    
+            var circle_marker_379c9105979e420a8b941c296146bb38 = L.circleMarker(
+                [42.540716700000004, 1.5732033],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_aa616b15fc984a118f41f0b693d6d9e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4f006dd8579458780e891ecf9d8390a = $(`<div id="html_b4f006dd8579458780e891ecf9d8390a" style="width: 100.0%; height: 100.0%;">Andorra Total Cases:760</div>`)[0];
+            popup_aa616b15fc984a118f41f0b693d6d9e6.setContent(html_b4f006dd8579458780e891ecf9d8390a);
+        
+
+        circle_marker_379c9105979e420a8b941c296146bb38.bindPopup(popup_aa616b15fc984a118f41f0b693d6d9e6)
+        ;
+
+        
+    
+    
+            var circle_marker_59fef81f0c2f48d2819aeb6182e8e4d8 = L.circleMarker(
+                [-11.877576800000002, 17.5691241],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_8892112cf92b418e8765d907711a7202 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2e004ba6ab04b45b0dc239cd5bdfc8e = $(`<div id="html_f2e004ba6ab04b45b0dc239cd5bdfc8e" style="width: 100.0%; height: 100.0%;">Angola Total Cases:45</div>`)[0];
+            popup_8892112cf92b418e8765d907711a7202.setContent(html_f2e004ba6ab04b45b0dc239cd5bdfc8e);
+        
+
+        circle_marker_59fef81f0c2f48d2819aeb6182e8e4d8.bindPopup(popup_8892112cf92b418e8765d907711a7202)
+        ;
+
+        
+    
+    
+            var circle_marker_902a109e1f0749fda9922e1f12f13f7a = L.circleMarker(
+                [17.223472100000002, -61.9554608],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_f5d4ee0164be4ae0a0fcb265da6fdfd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6cf7427406bb433a8def246c36ef8055 = $(`<div id="html_6cf7427406bb433a8def246c36ef8055" style="width: 100.0%; height: 100.0%;">Antigua and Barbuda Total Cases:25</div>`)[0];
+            popup_f5d4ee0164be4ae0a0fcb265da6fdfd3.setContent(html_6cf7427406bb433a8def246c36ef8055);
+        
+
+        circle_marker_902a109e1f0749fda9922e1f12f13f7a.bindPopup(popup_f5d4ee0164be4ae0a0fcb265da6fdfd3)
+        ;
+
+        
+    
+    
+            var circle_marker_e7748f600ae147f9b689cec33bde40ef = L.circleMarker(
+                [-34.9964963, -64.9672817],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_863883d698d246588e027587144c43b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c470b9d42cec47fa99dfefd4cca464c2 = $(`<div id="html_c470b9d42cec47fa99dfefd4cca464c2" style="width: 100.0%; height: 100.0%;">Argentina Total Cases:6563</div>`)[0];
+            popup_863883d698d246588e027587144c43b3.setContent(html_c470b9d42cec47fa99dfefd4cca464c2);
+        
+
+        circle_marker_e7748f600ae147f9b689cec33bde40ef.bindPopup(popup_863883d698d246588e027587144c43b3)
+        ;
+
+        
+    
+    
+            var circle_marker_30492f6c15bb42679e4adccd6d0637a7 = L.circleMarker(
+                [40.7696272, 44.6736646],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_69d48e90f64b4058be9e6d98e6ecdff9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0602096948f143cdb4684eb6c27e509b = $(`<div id="html_0602096948f143cdb4684eb6c27e509b" style="width: 100.0%; height: 100.0%;">Armenia Total Cases:3718</div>`)[0];
+            popup_69d48e90f64b4058be9e6d98e6ecdff9.setContent(html_0602096948f143cdb4684eb6c27e509b);
+        
+
+        circle_marker_30492f6c15bb42679e4adccd6d0637a7.bindPopup(popup_69d48e90f64b4058be9e6d98e6ecdff9)
+        ;
+
+        
+    
+    
+            var circle_marker_65108dda2fae4fa1bc695eadcbda593e = L.circleMarker(
+                [12.5013629, -69.9618475],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_73c6cbb944e5464abd925562493fa124 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34ee1dd37c164b6e8402a5461ac087a5 = $(`<div id="html_34ee1dd37c164b6e8402a5461ac087a5" style="width: 100.0%; height: 100.0%;">Aruba Total Cases:101</div>`)[0];
+            popup_73c6cbb944e5464abd925562493fa124.setContent(html_34ee1dd37c164b6e8402a5461ac087a5);
+        
+
+        circle_marker_65108dda2fae4fa1bc695eadcbda593e.bindPopup(popup_73c6cbb944e5464abd925562493fa124)
+        ;
+
+        
+    
+    
+            var circle_marker_52ebf5a43927487bbbca753669ba5621 = L.circleMarker(
+                [-24.7761086, 134.755],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_f7591a24de3a4d01a027ae4fabba8552 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b466685e5735405ba3470ac985094863 = $(`<div id="html_b466685e5735405ba3470ac985094863" style="width: 100.0%; height: 100.0%;">Australia Total Cases:6980</div>`)[0];
+            popup_f7591a24de3a4d01a027ae4fabba8552.setContent(html_b466685e5735405ba3470ac985094863);
+        
+
+        circle_marker_52ebf5a43927487bbbca753669ba5621.bindPopup(popup_f7591a24de3a4d01a027ae4fabba8552)
+        ;
+
+        
+    
+    
+            var circle_marker_89e6d88296244137883a7a02798b0044 = L.circleMarker(
+                [47.2000338, 13.199959],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_8022065c7f7a4c5a814279537ce503f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57673501543c4525b7d9b8415364e568 = $(`<div id="html_57673501543c4525b7d9b8415364e568" style="width: 100.0%; height: 100.0%;">Austria Total Cases:15997</div>`)[0];
+            popup_8022065c7f7a4c5a814279537ce503f3.setContent(html_57673501543c4525b7d9b8415364e568);
+        
+
+        circle_marker_89e6d88296244137883a7a02798b0044.bindPopup(popup_8022065c7f7a4c5a814279537ce503f3)
+        ;
+
+        
+    
+    
+            var circle_marker_fc0d17e425754660aba3bd9d011c8c2f = L.circleMarker(
+                [40.3936294, 47.787250799999995],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_42bc562409d54885a5644252a399eb11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c27ea0aa66148d9bde6a60eee01128f = $(`<div id="html_5c27ea0aa66148d9bde6a60eee01128f" style="width: 100.0%; height: 100.0%;">Azerbaijan Total Cases:2758</div>`)[0];
+            popup_42bc562409d54885a5644252a399eb11.setContent(html_5c27ea0aa66148d9bde6a60eee01128f);
+        
+
+        circle_marker_fc0d17e425754660aba3bd9d011c8c2f.bindPopup(popup_42bc562409d54885a5644252a399eb11)
+        ;
+
+        
+    
+    
+            var circle_marker_e1ef5341267e4e89a48fdbe76ea7afb7 = L.circleMarker(
+                [24.7736546, -78.0000547],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_035f54c4b5af448c93aeabead61ebce7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6dc971694cc249cf8a66fe1231128232 = $(`<div id="html_6dc971694cc249cf8a66fe1231128232" style="width: 100.0%; height: 100.0%;">Bahamas Total Cases:93</div>`)[0];
+            popup_035f54c4b5af448c93aeabead61ebce7.setContent(html_6dc971694cc249cf8a66fe1231128232);
+        
+
+        circle_marker_e1ef5341267e4e89a48fdbe76ea7afb7.bindPopup(popup_035f54c4b5af448c93aeabead61ebce7)
+        ;
+
+        
+    
+    
+            var circle_marker_8e4a06cf406642fdb0bbc5be1604eabc = L.circleMarker(
+                [26.155124899999997, 50.5344606],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_09ee0c31d2a04b89ac9a6d6e7d14db1b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ceb69c129dd48d8b0f6164f94004bb0 = $(`<div id="html_7ceb69c129dd48d8b0f6164f94004bb0" style="width: 100.0%; height: 100.0%;">Bahrain Total Cases:5816</div>`)[0];
+            popup_09ee0c31d2a04b89ac9a6d6e7d14db1b.setContent(html_7ceb69c129dd48d8b0f6164f94004bb0);
+        
+
+        circle_marker_8e4a06cf406642fdb0bbc5be1604eabc.bindPopup(popup_09ee0c31d2a04b89ac9a6d6e7d14db1b)
+        ;
+
+        
+    
+    
+            var circle_marker_76272d73eb644a2e87415abedfa76729 = L.circleMarker(
+                [13.1500331, -59.52503050000001],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_0b54b52d38db49c293b62cc374f1f63f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e71b4e962f2948f2a8b698913b8d4474 = $(`<div id="html_e71b4e962f2948f2a8b698913b8d4474" style="width: 100.0%; height: 100.0%;">Barbados Total Cases:85</div>`)[0];
+            popup_0b54b52d38db49c293b62cc374f1f63f.setContent(html_e71b4e962f2948f2a8b698913b8d4474);
+        
+
+        circle_marker_76272d73eb644a2e87415abedfa76729.bindPopup(popup_0b54b52d38db49c293b62cc374f1f63f)
+        ;
+
+        
+    
+    
+            var circle_marker_b9c0bfabf2f94eb7ad8b064c6e161a84 = L.circleMarker(
+                [53.4250605, 27.6971358],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_69ab492500c24bec91ea61c42d599b63 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42b47f786618470eb8bd94356cab13ef = $(`<div id="html_42b47f786618470eb8bd94356cab13ef" style="width: 100.0%; height: 100.0%;">Belarus Total Cases:25825</div>`)[0];
+            popup_69ab492500c24bec91ea61c42d599b63.setContent(html_42b47f786618470eb8bd94356cab13ef);
+        
+
+        circle_marker_b9c0bfabf2f94eb7ad8b064c6e161a84.bindPopup(popup_69ab492500c24bec91ea61c42d599b63)
+        ;
+
+        
+    
+    
+            var circle_marker_1dc0fea793544bb1b39ac32b2ce8193d = L.circleMarker(
+                [50.6402809, 4.666714499999999],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_45deba87723e445a95e401261e5d779b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_605e07cdfb2b4a5782bcd2573c37fb82 = $(`<div id="html_605e07cdfb2b4a5782bcd2573c37fb82" style="width: 100.0%; height: 100.0%;">Belgium Total Cases:53981</div>`)[0];
+            popup_45deba87723e445a95e401261e5d779b.setContent(html_605e07cdfb2b4a5782bcd2573c37fb82);
+        
+
+        circle_marker_1dc0fea793544bb1b39ac32b2ce8193d.bindPopup(popup_45deba87723e445a95e401261e5d779b)
+        ;
+
+        
+    
+    
+            var circle_marker_17ebda97b7c84196a33eb79f96072b4a = L.circleMarker(
+                [16.8259793, -88.7600927],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_e88bc749e6ce422fbbb6a1f64966033a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_170ddb58bf214e77a7ff8d4d582a7ea1 = $(`<div id="html_170ddb58bf214e77a7ff8d4d582a7ea1" style="width: 100.0%; height: 100.0%;">Belize Total Cases:18</div>`)[0];
+            popup_e88bc749e6ce422fbbb6a1f64966033a.setContent(html_170ddb58bf214e77a7ff8d4d582a7ea1);
+        
+
+        circle_marker_17ebda97b7c84196a33eb79f96072b4a.bindPopup(popup_e88bc749e6ce422fbbb6a1f64966033a)
+        ;
+
+        
+    
+    
+            var circle_marker_07b4350b4b594fb8af2694522d3fc789 = L.circleMarker(
+                [9.5293472, 2.2584408],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_6a6a0c43c82d47b79bd8d0d9cfc6acf6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67210cb6c13d4293805dc07dab1c1fcb = $(`<div id="html_67210cb6c13d4293805dc07dab1c1fcb" style="width: 100.0%; height: 100.0%;">Benin Total Cases:327</div>`)[0];
+            popup_6a6a0c43c82d47b79bd8d0d9cfc6acf6.setContent(html_67210cb6c13d4293805dc07dab1c1fcb);
+        
+
+        circle_marker_07b4350b4b594fb8af2694522d3fc789.bindPopup(popup_6a6a0c43c82d47b79bd8d0d9cfc6acf6)
+        ;
+
+        
+    
+    
+            var circle_marker_23165c1f40c641c3b22573ad9d1eb053 = L.circleMarker(
+                [32.3018217, -64.7603583],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_af08a496a6d84590a6138b5916c23104 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e2c1cd6d8ef432b9d72c91babb530fb = $(`<div id="html_9e2c1cd6d8ef432b9d72c91babb530fb" style="width: 100.0%; height: 100.0%;">Bermuda Total Cases:121</div>`)[0];
+            popup_af08a496a6d84590a6138b5916c23104.setContent(html_9e2c1cd6d8ef432b9d72c91babb530fb);
+        
+
+        circle_marker_23165c1f40c641c3b22573ad9d1eb053.bindPopup(popup_af08a496a6d84590a6138b5916c23104)
+        ;
+
+        
+    
+    
+            var circle_marker_c2df7dbc304c4e4095a3d5f2a0b9e2e5 = L.circleMarker(
+                [27.549511, 90.5119273],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_33c41c0d56df4f509aad677d8dba3ca1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0fe7c01853ee4243ace24b1ec85e4c5b = $(`<div id="html_0fe7c01853ee4243ace24b1ec85e4c5b" style="width: 100.0%; height: 100.0%;">Bhutan Total Cases:11</div>`)[0];
+            popup_33c41c0d56df4f509aad677d8dba3ca1.setContent(html_0fe7c01853ee4243ace24b1ec85e4c5b);
+        
+
+        circle_marker_c2df7dbc304c4e4095a3d5f2a0b9e2e5.bindPopup(popup_33c41c0d56df4f509aad677d8dba3ca1)
+        ;
+
+        
+    
+    
+            var circle_marker_314fbc5334974828a5f14de8abdd3c98 = L.circleMarker(
+                [-23.1681782, 24.5928742],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_428aebeb3a56472ebc08c1ddf0ea5a43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a95c1df2324e4a7bbd5c5d4d5cbb2ad7 = $(`<div id="html_a95c1df2324e4a7bbd5c5d4d5cbb2ad7" style="width: 100.0%; height: 100.0%;">Botswana Total Cases:24</div>`)[0];
+            popup_428aebeb3a56472ebc08c1ddf0ea5a43.setContent(html_a95c1df2324e4a7bbd5c5d4d5cbb2ad7);
+        
+
+        circle_marker_314fbc5334974828a5f14de8abdd3c98.bindPopup(popup_428aebeb3a56472ebc08c1ddf0ea5a43)
+        ;
+
+        
+    
+    
+            var circle_marker_fa166ac9f13d4434ac0eac5d50578cf4 = L.circleMarker(
+                [-10.333333300000001, -53.2],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_9900c630fbfc43d7ac14cee3cafaafea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_edaf31bd208e4f1e902af022b252f52c = $(`<div id="html_edaf31bd208e4f1e902af022b252f52c" style="width: 100.0%; height: 100.0%;">Brazil Total Cases:181518</div>`)[0];
+            popup_9900c630fbfc43d7ac14cee3cafaafea.setContent(html_edaf31bd208e4f1e902af022b252f52c);
+        
+
+        circle_marker_fa166ac9f13d4434ac0eac5d50578cf4.bindPopup(popup_9900c630fbfc43d7ac14cee3cafaafea)
+        ;
+
+        
+    
+    
+            var circle_marker_180b595a41ab489f9210ed09bdadd0f5 = L.circleMarker(
+                [42.6073975, 25.4856617],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_70b55d70b96d4514be864e6a0c470354 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ce9fe342bfc40cc9da3440a3743501c = $(`<div id="html_7ce9fe342bfc40cc9da3440a3743501c" style="width: 100.0%; height: 100.0%;">Bulgaria Total Cases:2069</div>`)[0];
+            popup_70b55d70b96d4514be864e6a0c470354.setContent(html_7ce9fe342bfc40cc9da3440a3743501c);
+        
+
+        circle_marker_180b595a41ab489f9210ed09bdadd0f5.bindPopup(popup_70b55d70b96d4514be864e6a0c470354)
+        ;
+
+        
+    
+    
+            var circle_marker_24c21d59abe3437787421d182ae430ae = L.circleMarker(
+                [12.075308300000001, -1.6880313999999998],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_6da1c531acb04487ab9e7c761bdc2100 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d5f944850d04ecdbfec3725c636cf4e = $(`<div id="html_3d5f944850d04ecdbfec3725c636cf4e" style="width: 100.0%; height: 100.0%;">Burkina Faso Total Cases:766</div>`)[0];
+            popup_6da1c531acb04487ab9e7c761bdc2100.setContent(html_3d5f944850d04ecdbfec3725c636cf4e);
+        
+
+        circle_marker_24c21d59abe3437787421d182ae430ae.bindPopup(popup_6da1c531acb04487ab9e7c761bdc2100)
+        ;
+
+        
+    
+    
+            var circle_marker_02505fa72c514df58355ec286e6969cc = L.circleMarker(
+                [-3.3634357, 29.8870575],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_ec6b2adaf0cf4f31b6f76c6bdf709548 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5c9112d20bd4ee09b671cf2211f5374 = $(`<div id="html_d5c9112d20bd4ee09b671cf2211f5374" style="width: 100.0%; height: 100.0%;">Burundi Total Cases:15</div>`)[0];
+            popup_ec6b2adaf0cf4f31b6f76c6bdf709548.setContent(html_d5c9112d20bd4ee09b671cf2211f5374);
+        
+
+        circle_marker_02505fa72c514df58355ec286e6969cc.bindPopup(popup_ec6b2adaf0cf4f31b6f76c6bdf709548)
+        ;
+
+        
+    
+    
+            var circle_marker_400aa3784b02496a95335a56d23760cc = L.circleMarker(
+                [13.5066394, 104.869423],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_f5b7cf5d9d6c41028c01935fc810c122 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d44843d41e134f848197bed5847a66ec = $(`<div id="html_d44843d41e134f848197bed5847a66ec" style="width: 100.0%; height: 100.0%;">Cambodia Total Cases:122</div>`)[0];
+            popup_f5b7cf5d9d6c41028c01935fc810c122.setContent(html_d44843d41e134f848197bed5847a66ec);
+        
+
+        circle_marker_400aa3784b02496a95335a56d23760cc.bindPopup(popup_f5b7cf5d9d6c41028c01935fc810c122)
+        ;
+
+        
+    
+    
+            var circle_marker_9e5c2f064f344d20bc084f3c37dfd28c = L.circleMarker(
+                [4.6125522000000005, 13.153581099999998],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_139ebebc2ba3409db27578f66ad3a966 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e027be736374480a61c52b54eb1c554 = $(`<div id="html_4e027be736374480a61c52b54eb1c554" style="width: 100.0%; height: 100.0%;">Cameroon Total Cases:2689</div>`)[0];
+            popup_139ebebc2ba3409db27578f66ad3a966.setContent(html_4e027be736374480a61c52b54eb1c554);
+        
+
+        circle_marker_9e5c2f064f344d20bc084f3c37dfd28c.bindPopup(popup_139ebebc2ba3409db27578f66ad3a966)
+        ;
+
+        
+    
+    
+            var circle_marker_c49d3b57e56b4100b7f1e6abaa2e4a0e = L.circleMarker(
+                [61.0666922, -107.9917071],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_5a68a26db7384319a34e5e7fd9f1103e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a481c47c7f8d43a796dde8955fe40496 = $(`<div id="html_a481c47c7f8d43a796dde8955fe40496" style="width: 100.0%; height: 100.0%;">Canada Total Cases:73193</div>`)[0];
+            popup_5a68a26db7384319a34e5e7fd9f1103e.setContent(html_a481c47c7f8d43a796dde8955fe40496);
+        
+
+        circle_marker_c49d3b57e56b4100b7f1e6abaa2e4a0e.bindPopup(popup_5a68a26db7384319a34e5e7fd9f1103e)
+        ;
+
+        
+    
+    
+            var circle_marker_ecbee9ce108f4bd692aa62d298899380 = L.circleMarker(
+                [19.5417212, -80.5667132],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_dc51744188804842a66d5939751ed064 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_992c94710d9141338219447a62b811d1 = $(`<div id="html_992c94710d9141338219447a62b811d1" style="width: 100.0%; height: 100.0%;">Cayman Islands Total Cases:86</div>`)[0];
+            popup_dc51744188804842a66d5939751ed064.setContent(html_992c94710d9141338219447a62b811d1);
+        
+
+        circle_marker_ecbee9ce108f4bd692aa62d298899380.bindPopup(popup_dc51744188804842a66d5939751ed064)
+        ;
+
+        
+    
+    
+            var circle_marker_a3374091488946e6baa909feb986b39d = L.circleMarker(
+                [7.0323598, 19.9981227],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_9ee4e39088e4427fbc3bbbe69237f0e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8059655cf3b64e50a8d8528c5f2e8780 = $(`<div id="html_8059655cf3b64e50a8d8528c5f2e8780" style="width: 100.0%; height: 100.0%;">Central African Republic Total Cases:143</div>`)[0];
+            popup_9ee4e39088e4427fbc3bbbe69237f0e7.setContent(html_8059655cf3b64e50a8d8528c5f2e8780);
+        
+
+        circle_marker_a3374091488946e6baa909feb986b39d.bindPopup(popup_9ee4e39088e4427fbc3bbbe69237f0e7)
+        ;
+
+        
+    
+    
+            var circle_marker_dc2ff7af14244da4a65ece178722404d = L.circleMarker(
+                [15.613413699999999, 19.015617199999998],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_d29c92707c89450499a25fdbd04fb786 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a4bbc869df34054b9560b95e00ed1b3 = $(`<div id="html_4a4bbc869df34054b9560b95e00ed1b3" style="width: 100.0%; height: 100.0%;">Chad Total Cases:372</div>`)[0];
+            popup_d29c92707c89450499a25fdbd04fb786.setContent(html_4a4bbc869df34054b9560b95e00ed1b3);
+        
+
+        circle_marker_dc2ff7af14244da4a65ece178722404d.bindPopup(popup_d29c92707c89450499a25fdbd04fb786)
+        ;
+
+        
+    
+    
+            var circle_marker_7575768356404768adb8f59a9d0571a8 = L.circleMarker(
+                [-31.7613365, -71.3187697],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_a2408c66b90847ff83a76056a81a3129 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97ba48d52a9c4e0ba340dc435013b5b0 = $(`<div id="html_97ba48d52a9c4e0ba340dc435013b5b0" style="width: 100.0%; height: 100.0%;">Chile Total Cases:34381</div>`)[0];
+            popup_a2408c66b90847ff83a76056a81a3129.setContent(html_97ba48d52a9c4e0ba340dc435013b5b0);
+        
+
+        circle_marker_7575768356404768adb8f59a9d0571a8.bindPopup(popup_a2408c66b90847ff83a76056a81a3129)
+        ;
+
+        
+    
+    
+            var circle_marker_9f0294a61f6e47c9bcdc11bfe913247b = L.circleMarker(
+                [35.000074, 104.999927],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_bca3400246c343ec953dc34c0c8205ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c3cb16b31414f4fa70deabcc01555b3 = $(`<div id="html_5c3cb16b31414f4fa70deabcc01555b3" style="width: 100.0%; height: 100.0%;">China Total Cases:84021</div>`)[0];
+            popup_bca3400246c343ec953dc34c0c8205ab.setContent(html_5c3cb16b31414f4fa70deabcc01555b3);
+        
+
+        circle_marker_9f0294a61f6e47c9bcdc11bfe913247b.bindPopup(popup_bca3400246c343ec953dc34c0c8205ab)
+        ;
+
+        
+    
+    
+            var circle_marker_15ec28c7e06b4e53bec8e081bab281fb = L.circleMarker(
+                [2.8894433999999998, -73.78389200000001],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_18b51bf4da744c499459246f429c6075 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9514e70d678c4a2f9ce36b46369c623c = $(`<div id="html_9514e70d678c4a2f9ce36b46369c623c" style="width: 100.0%; height: 100.0%;">Colombia Total Cases:12272</div>`)[0];
+            popup_18b51bf4da744c499459246f429c6075.setContent(html_9514e70d678c4a2f9ce36b46369c623c);
+        
+
+        circle_marker_15ec28c7e06b4e53bec8e081bab281fb.bindPopup(popup_18b51bf4da744c499459246f429c6075)
+        ;
+
+        
+    
+    
+            var circle_marker_2305ed4b3ab84fafa7171a5d6c12349c = L.circleMarker(
+                [-12.204517599999999, 44.2832964],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_15a661605d5a49cc9b769d5f77148de5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9697ba19678f43ff948a2a3b32e3af9f = $(`<div id="html_9697ba19678f43ff948a2a3b32e3af9f" style="width: 100.0%; height: 100.0%;">Comoros Total Cases:11</div>`)[0];
+            popup_15a661605d5a49cc9b769d5f77148de5.setContent(html_9697ba19678f43ff948a2a3b32e3af9f);
+        
+
+        circle_marker_2305ed4b3ab84fafa7171a5d6c12349c.bindPopup(popup_15a661605d5a49cc9b769d5f77148de5)
+        ;
+
+        
+    
+    
+            var circle_marker_c02bbb9833314a1faecce421fba70f20 = L.circleMarker(
+                [-0.7264326999999999, 15.6419155],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_c1dc4c3aa0924b63833ad2461d5e72a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_032e9e45ec06422dad2940a965c914d3 = $(`<div id="html_032e9e45ec06422dad2940a965c914d3" style="width: 100.0%; height: 100.0%;">Congo Total Cases:333</div>`)[0];
+            popup_c1dc4c3aa0924b63833ad2461d5e72a5.setContent(html_032e9e45ec06422dad2940a965c914d3);
+        
+
+        circle_marker_c02bbb9833314a1faecce421fba70f20.bindPopup(popup_c1dc4c3aa0924b63833ad2461d5e72a5)
+        ;
+
+        
+    
+    
+            var circle_marker_23904f6f831e41e5a41cdd2ace00cfb9 = L.circleMarker(
+                [10.2735633, -84.0739102],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_aa61821950764b589dcbd7555fe02618 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5a419727f7b4561b60f4a4885f559c0 = $(`<div id="html_a5a419727f7b4561b60f4a4885f559c0" style="width: 100.0%; height: 100.0%;">Costa Rica Total Cases:815</div>`)[0];
+            popup_aa61821950764b589dcbd7555fe02618.setContent(html_a5a419727f7b4561b60f4a4885f559c0);
+        
+
+        circle_marker_23904f6f831e41e5a41cdd2ace00cfb9.bindPopup(popup_aa61821950764b589dcbd7555fe02618)
+        ;
+
+        
+    
+    
+            var circle_marker_258d9cb0a8e649e2871634f94b7648c9 = L.circleMarker(
+                [7.9897371, -5.5679457999999995],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_d78b117a4d494af89ee106b0f17c98d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_213d3461e2de4c788b30bf3ec59f52d7 = $(`<div id="html_213d3461e2de4c788b30bf3ec59f52d7" style="width: 100.0%; height: 100.0%;">Cote D'Ivoire Total Cases:1857</div>`)[0];
+            popup_d78b117a4d494af89ee106b0f17c98d0.setContent(html_213d3461e2de4c788b30bf3ec59f52d7);
+        
+
+        circle_marker_258d9cb0a8e649e2871634f94b7648c9.bindPopup(popup_d78b117a4d494af89ee106b0f17c98d0)
+        ;
+
+        
+    
+    
+            var circle_marker_082bab415dc34763b804af5081775eb0 = L.circleMarker(
+                [45.5643442, 17.0118954],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_d9c607fa24d74f4f9da149144de0b8f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25de799ccd174dd1b9b9a155d1277928 = $(`<div id="html_25de799ccd174dd1b9b9a155d1277928" style="width: 100.0%; height: 100.0%;">Croatia Total Cases:2213</div>`)[0];
+            popup_d9c607fa24d74f4f9da149144de0b8f3.setContent(html_25de799ccd174dd1b9b9a155d1277928);
+        
+
+        circle_marker_082bab415dc34763b804af5081775eb0.bindPopup(popup_d9c607fa24d74f4f9da149144de0b8f3)
+        ;
+
+        
+    
+    
+            var circle_marker_50c75ae9bd1f4e5ba46f6b4de30e9826 = L.circleMarker(
+                [23.013133800000002, -80.8328748],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_d5efa311e00e46b9a45613b911aa111d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f771890a8e404cbe8cb97e020775744e = $(`<div id="html_f771890a8e404cbe8cb97e020775744e" style="width: 100.0%; height: 100.0%;">Cuba Total Cases:1810</div>`)[0];
+            popup_d5efa311e00e46b9a45613b911aa111d.setContent(html_f771890a8e404cbe8cb97e020775744e);
+        
+
+        circle_marker_50c75ae9bd1f4e5ba46f6b4de30e9826.bindPopup(popup_d5efa311e00e46b9a45613b911aa111d)
+        ;
+
+        
+    
+    
+            var circle_marker_0897750991b640cdae8bcf3dce21c61d = L.circleMarker(
+                [34.982301799999995, 33.1451285],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_4a7c952c9ad14b9f82caa61fdea74872 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a759706f8114f72b76b9ce7414687de = $(`<div id="html_6a759706f8114f72b76b9ce7414687de" style="width: 100.0%; height: 100.0%;">Cyprus Total Cases:905</div>`)[0];
+            popup_4a7c952c9ad14b9f82caa61fdea74872.setContent(html_6a759706f8114f72b76b9ce7414687de);
+        
+
+        circle_marker_0897750991b640cdae8bcf3dce21c61d.bindPopup(popup_4a7c952c9ad14b9f82caa61fdea74872)
+        ;
+
+        
+    
+    
+            var circle_marker_66d10df3e95b46c6b65f8ae2cb18b919 = L.circleMarker(
+                [55.670249, 10.333328300000002],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_65b92e33c7d74bcdb111148dcffde31f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6b33732fa40416191c6e7be8d341e07 = $(`<div id="html_b6b33732fa40416191c6e7be8d341e07" style="width: 100.0%; height: 100.0%;">Denmark Total Cases:10865</div>`)[0];
+            popup_65b92e33c7d74bcdb111148dcffde31f.setContent(html_b6b33732fa40416191c6e7be8d341e07);
+        
+
+        circle_marker_66d10df3e95b46c6b65f8ae2cb18b919.bindPopup(popup_65b92e33c7d74bcdb111148dcffde31f)
+        ;
+
+        
+    
+    
+            var circle_marker_05874023dd0243f7b8f57f56e1e98e6a = L.circleMarker(
+                [11.8145966, 42.8453061],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_f4f2d49d4c794dd285b3c769f791ac7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b246f832f55f4cdca51a074453d7ddd8 = $(`<div id="html_b246f832f55f4cdca51a074453d7ddd8" style="width: 100.0%; height: 100.0%;">Djibouti Total Cases:1268</div>`)[0];
+            popup_f4f2d49d4c794dd285b3c769f791ac7d.setContent(html_b246f832f55f4cdca51a074453d7ddd8);
+        
+
+        circle_marker_05874023dd0243f7b8f57f56e1e98e6a.bindPopup(popup_f4f2d49d4c794dd285b3c769f791ac7d)
+        ;
+
+        
+    
+    
+            var circle_marker_e8209cf61c664398bb2cf7b02509b2b5 = L.circleMarker(
+                [19.0974031, -70.30280259999999],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_d94bac47c4e541c2934d587c9f171b4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_779217298cb14e4188dc4ebff6354481 = $(`<div id="html_779217298cb14e4188dc4ebff6354481" style="width: 100.0%; height: 100.0%;">Dominica Total Cases:16</div>`)[0];
+            popup_d94bac47c4e541c2934d587c9f171b4f.setContent(html_779217298cb14e4188dc4ebff6354481);
+        
+
+        circle_marker_e8209cf61c664398bb2cf7b02509b2b5.bindPopup(popup_d94bac47c4e541c2934d587c9f171b4f)
+        ;
+
+        
+    
+    
+            var circle_marker_448963efd63e407dab11b33be87f75bc = L.circleMarker(
+                [19.0974031, -70.30280259999999],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_9fcbd6d87a444d74bd1d79d6a365263e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb65cde73d554ac5b531be4eb272dfbf = $(`<div id="html_eb65cde73d554ac5b531be4eb272dfbf" style="width: 100.0%; height: 100.0%;">Dominican Republic Total Cases:11196</div>`)[0];
+            popup_9fcbd6d87a444d74bd1d79d6a365263e.setContent(html_eb65cde73d554ac5b531be4eb272dfbf);
+        
+
+        circle_marker_448963efd63e407dab11b33be87f75bc.bindPopup(popup_9fcbd6d87a444d74bd1d79d6a365263e)
+        ;
+
+        
+    
+    
+            var circle_marker_c8e841acc83148d4a34ef6c653298581 = L.circleMarker(
+                [-1.3397668, -79.3666965],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_59f9d7e4fa3f4de3bcb7144e03c5deac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_329ef8a9e76243e5a2f794fbcb74956b = $(`<div id="html_329ef8a9e76243e5a2f794fbcb74956b" style="width: 100.0%; height: 100.0%;">Ecuador Total Cases:30486</div>`)[0];
+            popup_59f9d7e4fa3f4de3bcb7144e03c5deac.setContent(html_329ef8a9e76243e5a2f794fbcb74956b);
+        
+
+        circle_marker_c8e841acc83148d4a34ef6c653298581.bindPopup(popup_59f9d7e4fa3f4de3bcb7144e03c5deac)
+        ;
+
+        
+    
+    
+            var circle_marker_525f8c94220c4b2a946200de5cf31387 = L.circleMarker(
+                [26.254049300000002, 29.2675469],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_b64b2a66b7c34f05a26281ca8c795337 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13a27a1051bf48cb980401c26afce8ea = $(`<div id="html_13a27a1051bf48cb980401c26afce8ea" style="width: 100.0%; height: 100.0%;">Egypt Total Cases:10431</div>`)[0];
+            popup_b64b2a66b7c34f05a26281ca8c795337.setContent(html_13a27a1051bf48cb980401c26afce8ea);
+        
+
+        circle_marker_525f8c94220c4b2a946200de5cf31387.bindPopup(popup_b64b2a66b7c34f05a26281ca8c795337)
+        ;
+
+        
+    
+    
+            var circle_marker_eedd2cfdef78465eb3b81b2ee1b4cd43 = L.circleMarker(
+                [13.800038199999998, -88.9140683],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_8a4844953374412b9cfffbca225f81bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08210543f89f47a597b1142019ec6c59 = $(`<div id="html_08210543f89f47a597b1142019ec6c59" style="width: 100.0%; height: 100.0%;">El Salvador Total Cases:1037</div>`)[0];
+            popup_8a4844953374412b9cfffbca225f81bf.setContent(html_08210543f89f47a597b1142019ec6c59);
+        
+
+        circle_marker_eedd2cfdef78465eb3b81b2ee1b4cd43.bindPopup(popup_8a4844953374412b9cfffbca225f81bf)
+        ;
+
+        
+    
+    
+            var circle_marker_3dd426a31fc64880bde13c60e65eec82 = L.circleMarker(
+                [1.6131719999999998, 10.5170357],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_b8c0acb283e04c129b05f67cf6e1bc80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f23c4a975d841c58cf783bc13a4d685 = $(`<div id="html_4f23c4a975d841c58cf783bc13a4d685" style="width: 100.0%; height: 100.0%;">Equatorial Guinea Total Cases:522</div>`)[0];
+            popup_b8c0acb283e04c129b05f67cf6e1bc80.setContent(html_4f23c4a975d841c58cf783bc13a4d685);
+        
+
+        circle_marker_3dd426a31fc64880bde13c60e65eec82.bindPopup(popup_b8c0acb283e04c129b05f67cf6e1bc80)
+        ;
+
+        
+    
+    
+            var circle_marker_0821f4ee7cad48bc8ae1c1139bf39a01 = L.circleMarker(
+                [15.950031900000003, 37.999966799999996],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_e77ec2f19f324683a7f38e00fc8f73d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfa880966a0f408d84da9a24b355f4c6 = $(`<div id="html_bfa880966a0f408d84da9a24b355f4c6" style="width: 100.0%; height: 100.0%;">Eritrea Total Cases:39</div>`)[0];
+            popup_e77ec2f19f324683a7f38e00fc8f73d1.setContent(html_bfa880966a0f408d84da9a24b355f4c6);
+        
+
+        circle_marker_0821f4ee7cad48bc8ae1c1139bf39a01.bindPopup(popup_e77ec2f19f324683a7f38e00fc8f73d1)
+        ;
+
+        
+    
+    
+            var circle_marker_e11be966f9e24d1b83ebe7968f951f3e = L.circleMarker(
+                [58.75237779999999, 25.3319078],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_276aa8bd8fad4ee18c11bc94e48aa556 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f852ca2f9314fb9b6cb83e9a05e6f11 = $(`<div id="html_0f852ca2f9314fb9b6cb83e9a05e6f11" style="width: 100.0%; height: 100.0%;">Estonia Total Cases:1751</div>`)[0];
+            popup_276aa8bd8fad4ee18c11bc94e48aa556.setContent(html_0f852ca2f9314fb9b6cb83e9a05e6f11);
+        
+
+        circle_marker_e11be966f9e24d1b83ebe7968f951f3e.bindPopup(popup_276aa8bd8fad4ee18c11bc94e48aa556)
+        ;
+
+        
+    
+    
+            var circle_marker_5d5c14d4d04347fd9b51a99d86663b34 = L.circleMarker(
+                [10.211670199999999, 38.6521203],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_149127dcbc2d47329cd14aff832a8829 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5735901922864c609b5207502cf196be = $(`<div id="html_5735901922864c609b5207502cf196be" style="width: 100.0%; height: 100.0%;">Ethiopia Total Cases:263</div>`)[0];
+            popup_149127dcbc2d47329cd14aff832a8829.setContent(html_5735901922864c609b5207502cf196be);
+        
+
+        circle_marker_5d5c14d4d04347fd9b51a99d86663b34.bindPopup(popup_149127dcbc2d47329cd14aff832a8829)
+        ;
+
+        
+    
+    
+            var circle_marker_b339c38e49f449dba7fe46610ffca06d = L.circleMarker(
+                [-18.123969600000002, 179.0122737],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_466cad9d569749bebe28948f937efa2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e1b4052838040b1aa1da875a28652c5 = $(`<div id="html_6e1b4052838040b1aa1da875a28652c5" style="width: 100.0%; height: 100.0%;">Fiji Total Cases:18</div>`)[0];
+            popup_466cad9d569749bebe28948f937efa2f.setContent(html_6e1b4052838040b1aa1da875a28652c5);
+        
+
+        circle_marker_b339c38e49f449dba7fe46610ffca06d.bindPopup(popup_466cad9d569749bebe28948f937efa2f)
+        ;
+
+        
+    
+    
+            var circle_marker_f93dae2f59fe457c8c3cdc22019f0847 = L.circleMarker(
+                [63.2467777, 25.9209164],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_9407757cd4f44926b7e453898d65424c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f1220ea58094b35ac3379229383831f = $(`<div id="html_2f1220ea58094b35ac3379229383831f" style="width: 100.0%; height: 100.0%;">Finland Total Cases:6054</div>`)[0];
+            popup_9407757cd4f44926b7e453898d65424c.setContent(html_2f1220ea58094b35ac3379229383831f);
+        
+
+        circle_marker_f93dae2f59fe457c8c3cdc22019f0847.bindPopup(popup_9407757cd4f44926b7e453898d65424c)
+        ;
+
+        
+    
+    
+            var circle_marker_bd94077249f24853952f87849fdf31e5 = L.circleMarker(
+                [46.603353999999996, 1.8883334999999999],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_4028d94570414751893e35b6d62965fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d046a257a4384d5299c9b2de53909de1 = $(`<div id="html_d046a257a4384d5299c9b2de53909de1" style="width: 100.0%; height: 100.0%;">France Total Cases:178184</div>`)[0];
+            popup_4028d94570414751893e35b6d62965fc.setContent(html_d046a257a4384d5299c9b2de53909de1);
+        
+
+        circle_marker_bd94077249f24853952f87849fdf31e5.bindPopup(popup_4028d94570414751893e35b6d62965fc)
+        ;
+
+        
+    
+    
+            var circle_marker_d9b5b29d973640dcb7677530f9b55ae6 = L.circleMarker(
+                [4.0039882, -52.999998],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_8e71cfd290264ddb8fb1cadee8e3638f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_052aa880465e4562a5361b2c0d95a925 = $(`<div id="html_052aa880465e4562a5361b2c0d95a925" style="width: 100.0%; height: 100.0%;">French Guiana Total Cases:153</div>`)[0];
+            popup_8e71cfd290264ddb8fb1cadee8e3638f.setContent(html_052aa880465e4562a5361b2c0d95a925);
+        
+
+        circle_marker_d9b5b29d973640dcb7677530f9b55ae6.bindPopup(popup_8e71cfd290264ddb8fb1cadee8e3638f)
+        ;
+
+        
+    
+    
+            var circle_marker_2a61e8c8d26f4278b8173b59aca9c6ae = L.circleMarker(
+                [-16.03442485, -146.0490931059517],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_797067742bcb46d2b2c43de4b820bf52 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40914bdcc5c342ebb38860f312451146 = $(`<div id="html_40914bdcc5c342ebb38860f312451146" style="width: 100.0%; height: 100.0%;">French Polynesia Total Cases:60</div>`)[0];
+            popup_797067742bcb46d2b2c43de4b820bf52.setContent(html_40914bdcc5c342ebb38860f312451146);
+        
+
+        circle_marker_2a61e8c8d26f4278b8173b59aca9c6ae.bindPopup(popup_797067742bcb46d2b2c43de4b820bf52)
+        ;
+
+        
+    
+    
+            var circle_marker_5512ab4e7df14b4a813f2a3521f71eae = L.circleMarker(
+                [-0.8999695, 11.689969900000001],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_f1ce75728d7a42f0963e84c33afa755c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55d4c8108ec94d22b8466141721e6e86 = $(`<div id="html_55d4c8108ec94d22b8466141721e6e86" style="width: 100.0%; height: 100.0%;">Gabon Total Cases:863</div>`)[0];
+            popup_f1ce75728d7a42f0963e84c33afa755c.setContent(html_55d4c8108ec94d22b8466141721e6e86);
+        
+
+        circle_marker_5512ab4e7df14b4a813f2a3521f71eae.bindPopup(popup_f1ce75728d7a42f0963e84c33afa755c)
+        ;
+
+        
+    
+    
+            var circle_marker_965bd7bbfa054943a6a08747c0f830ed = L.circleMarker(
+                [13.470061999999999, -15.4900464],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_805abd987b4e4a62adf316c2adb00014 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4c6ae9e35234ca49059e1a8693123d2 = $(`<div id="html_f4c6ae9e35234ca49059e1a8693123d2" style="width: 100.0%; height: 100.0%;">Gambia Total Cases:23</div>`)[0];
+            popup_805abd987b4e4a62adf316c2adb00014.setContent(html_f4c6ae9e35234ca49059e1a8693123d2);
+        
+
+        circle_marker_965bd7bbfa054943a6a08747c0f830ed.bindPopup(popup_805abd987b4e4a62adf316c2adb00014)
+        ;
+
+        
+    
+    
+            var circle_marker_5f0cd7dee4e347409e570c2fab68c957 = L.circleMarker(
+                [32.329380900000004, -83.1137366],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_12717b56387b4561ab404ee93a3be4b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c3012cd0b2f475d8754650b0d60ba85 = $(`<div id="html_5c3012cd0b2f475d8754650b0d60ba85" style="width: 100.0%; height: 100.0%;">Georgia Total Cases:647</div>`)[0];
+            popup_12717b56387b4561ab404ee93a3be4b2.setContent(html_5c3012cd0b2f475d8754650b0d60ba85);
+        
+
+        circle_marker_5f0cd7dee4e347409e570c2fab68c957.bindPopup(popup_12717b56387b4561ab404ee93a3be4b2)
+        ;
+
+        
+    
+    
+            var circle_marker_9660bfa928a2447188de0f69474bf810 = L.circleMarker(
+                [51.0834196, 10.4234469],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_2e40feadb8b1450c95ad17afd9991d71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a6b4da428724088836281c0e1fcc582 = $(`<div id="html_9a6b4da428724088836281c0e1fcc582" style="width: 100.0%; height: 100.0%;">Germany Total Cases:173919</div>`)[0];
+            popup_2e40feadb8b1450c95ad17afd9991d71.setContent(html_9a6b4da428724088836281c0e1fcc582);
+        
+
+        circle_marker_9660bfa928a2447188de0f69474bf810.bindPopup(popup_2e40feadb8b1450c95ad17afd9991d71)
+        ;
+
+        
+    
+    
+            var circle_marker_f7a7f684becb469b86430c535cf23c50 = L.circleMarker(
+                [8.0300284, -1.0800271000000001],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_525e7480915e4510ac6a0a9be9ffe5cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4cec0bade3ff4a7185987ccc606e0fd7 = $(`<div id="html_4cec0bade3ff4a7185987ccc606e0fd7" style="width: 100.0%; height: 100.0%;">Ghana Total Cases:5408</div>`)[0];
+            popup_525e7480915e4510ac6a0a9be9ffe5cd.setContent(html_4cec0bade3ff4a7185987ccc606e0fd7);
+        
+
+        circle_marker_f7a7f684becb469b86430c535cf23c50.bindPopup(popup_525e7480915e4510ac6a0a9be9ffe5cd)
+        ;
+
+        
+    
+    
+            var circle_marker_d25a976dda9c4c38b59f9ff57d0e8b35 = L.circleMarker(
+                [36.10674695, -5.335277183483561],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_5a69c5f75b96435b827625426da0d61a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f43564fb856458c86fc66a3d290fdf9 = $(`<div id="html_4f43564fb856458c86fc66a3d290fdf9" style="width: 100.0%; height: 100.0%;">Gibraltar Total Cases:148</div>`)[0];
+            popup_5a69c5f75b96435b827625426da0d61a.setContent(html_4f43564fb856458c86fc66a3d290fdf9);
+        
+
+        circle_marker_d25a976dda9c4c38b59f9ff57d0e8b35.bindPopup(popup_5a69c5f75b96435b827625426da0d61a)
+        ;
+
+        
+    
+    
+            var circle_marker_b7f3891cd7d04653af761932fe898f8d = L.circleMarker(
+                [38.995368299999996, 21.987713199999998],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_859f2b38a50842049f73a428243e7f73 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b23b9ea8ecb042628c0a3a1e62e7c81a = $(`<div id="html_b23b9ea8ecb042628c0a3a1e62e7c81a" style="width: 100.0%; height: 100.0%;">Greece Total Cases:2760</div>`)[0];
+            popup_859f2b38a50842049f73a428243e7f73.setContent(html_b23b9ea8ecb042628c0a3a1e62e7c81a);
+        
+
+        circle_marker_b7f3891cd7d04653af761932fe898f8d.bindPopup(popup_859f2b38a50842049f73a428243e7f73)
+        ;
+
+        
+    
+    
+            var circle_marker_c2ad5ec72c644de591cdf0abe97524ce = L.circleMarker(
+                [77.61923490000001, -42.8125967],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_a6501dd487ac4c548b1afd89a4e2d757 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e7c03520de94d5d86f17ce8b3fc4471 = $(`<div id="html_7e7c03520de94d5d86f17ce8b3fc4471" style="width: 100.0%; height: 100.0%;">Greenland Total Cases:11</div>`)[0];
+            popup_a6501dd487ac4c548b1afd89a4e2d757.setContent(html_7e7c03520de94d5d86f17ce8b3fc4471);
+        
+
+        circle_marker_c2ad5ec72c644de591cdf0abe97524ce.bindPopup(popup_a6501dd487ac4c548b1afd89a4e2d757)
+        ;
+
+        
+    
+    
+            var circle_marker_eddc990cf55d4f35852a3a094386079e = L.circleMarker(
+                [12.136037400000001, -61.69040450000001],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_5669e6c3d4184d66ac1db8bf2aa75e51 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bd99a0c6c2b46d9b61d318d08b0d4bf = $(`<div id="html_0bd99a0c6c2b46d9b61d318d08b0d4bf" style="width: 100.0%; height: 100.0%;">Grenada Total Cases:21</div>`)[0];
+            popup_5669e6c3d4184d66ac1db8bf2aa75e51.setContent(html_0bd99a0c6c2b46d9b61d318d08b0d4bf);
+        
+
+        circle_marker_eddc990cf55d4f35852a3a094386079e.bindPopup(popup_5669e6c3d4184d66ac1db8bf2aa75e51)
+        ;
+
+        
+    
+    
+            var circle_marker_6d79606cb9aa485b9936cf5201f17f85 = L.circleMarker(
+                [16.2490067, -61.565044400000005],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_8a8c66062e96438ea94dc4fe80213520 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b822413c3dd3429b9f7dfc85927af213 = $(`<div id="html_b822413c3dd3429b9f7dfc85927af213" style="width: 100.0%; height: 100.0%;">Guadeloupe Total Cases:155</div>`)[0];
+            popup_8a8c66062e96438ea94dc4fe80213520.setContent(html_b822413c3dd3429b9f7dfc85927af213);
+        
+
+        circle_marker_6d79606cb9aa485b9936cf5201f17f85.bindPopup(popup_8a8c66062e96438ea94dc4fe80213520)
+        ;
+
+        
+    
+    
+            var circle_marker_899a02d3645444f59f5f0d36ac858b78 = L.circleMarker(
+                [13.4501257, 144.75755102972062],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_bb74a03ce1de4fcb8755b251eb142f31 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4d53caed3694ebdbe4f6648bceb071f = $(`<div id="html_e4d53caed3694ebdbe4f6648bceb071f" style="width: 100.0%; height: 100.0%;">Guam Total Cases:152</div>`)[0];
+            popup_bb74a03ce1de4fcb8755b251eb142f31.setContent(html_e4d53caed3694ebdbe4f6648bceb071f);
+        
+
+        circle_marker_899a02d3645444f59f5f0d36ac858b78.bindPopup(popup_bb74a03ce1de4fcb8755b251eb142f31)
+        ;
+
+        
+    
+    
+            var circle_marker_d3bc4e5cf045478099bde4f1b0e6c386 = L.circleMarker(
+                [15.635608800000002, -89.8988087],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_39d4c424baa2451fb3db6fb976dcede1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d3d233438c74a5293b749bc63bd17ad = $(`<div id="html_2d3d233438c74a5293b749bc63bd17ad" style="width: 100.0%; height: 100.0%;">Guatemala Total Cases:1199</div>`)[0];
+            popup_39d4c424baa2451fb3db6fb976dcede1.setContent(html_2d3d233438c74a5293b749bc63bd17ad);
+        
+
+        circle_marker_d3bc4e5cf045478099bde4f1b0e6c386.bindPopup(popup_39d4c424baa2451fb3db6fb976dcede1)
+        ;
+
+        
+    
+    
+            var circle_marker_9a05c56c43974fbb936d6ab06990fc83 = L.circleMarker(
+                [10.7226226, -10.7083587],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_2f9a9b84c6f84ba99267b5358daa1ced = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a994f7ff507748c5b836a93a45fcda4f = $(`<div id="html_a994f7ff507748c5b836a93a45fcda4f" style="width: 100.0%; height: 100.0%;">Guinea Total Cases:2374</div>`)[0];
+            popup_2f9a9b84c6f84ba99267b5358daa1ced.setContent(html_a994f7ff507748c5b836a93a45fcda4f);
+        
+
+        circle_marker_9a05c56c43974fbb936d6ab06990fc83.bindPopup(popup_2f9a9b84c6f84ba99267b5358daa1ced)
+        ;
+
+        
+    
+    
+            var circle_marker_ee5f193eb6b344b89c61a6be002ce310 = L.circleMarker(
+                [12.100035, -14.9000214],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_68f7b6fc3d174fc6a21e5ad2fb6526a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6257f0c21fca45dc877e524d1396be77 = $(`<div id="html_6257f0c21fca45dc877e524d1396be77" style="width: 100.0%; height: 100.0%;">Guinea-Bissau Total Cases:820</div>`)[0];
+            popup_68f7b6fc3d174fc6a21e5ad2fb6526a2.setContent(html_6257f0c21fca45dc877e524d1396be77);
+        
+
+        circle_marker_ee5f193eb6b344b89c61a6be002ce310.bindPopup(popup_68f7b6fc3d174fc6a21e5ad2fb6526a2)
+        ;
+
+        
+    
+    
+            var circle_marker_cede876df2814c569a2358005e084d21 = L.circleMarker(
+                [4.8417097, -58.64168910000001],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_2c6c1d8244ef4af6a19b1bb3035d35fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7525dbb4b4a4881953a481df3d2591c = $(`<div id="html_e7525dbb4b4a4881953a481df3d2591c" style="width: 100.0%; height: 100.0%;">Guyana Total Cases:113</div>`)[0];
+            popup_2c6c1d8244ef4af6a19b1bb3035d35fa.setContent(html_e7525dbb4b4a4881953a481df3d2591c);
+        
+
+        circle_marker_cede876df2814c569a2358005e084d21.bindPopup(popup_2c6c1d8244ef4af6a19b1bb3035d35fa)
+        ;
+
+        
+    
+    
+            var circle_marker_23a22deca9e34100ac8575fc43dbd5c1 = L.circleMarker(
+                [19.139995199999998, -72.35709720000001],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_4a56d0dbb54f4b11905a077368f29850 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c0b5393bca74d7abb6549121c6f2878 = $(`<div id="html_3c0b5393bca74d7abb6549121c6f2878" style="width: 100.0%; height: 100.0%;">Haiti Total Cases:219</div>`)[0];
+            popup_4a56d0dbb54f4b11905a077368f29850.setContent(html_3c0b5393bca74d7abb6549121c6f2878);
+        
+
+        circle_marker_23a22deca9e34100ac8575fc43dbd5c1.bindPopup(popup_4a56d0dbb54f4b11905a077368f29850)
+        ;
+
+        
+    
+    
+            var circle_marker_ad14cd81a76d4ffeab08b30cb9bf13c4 = L.circleMarker(
+                [15.2572432, -86.0755145],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_9d96ee0aa0344f739d892acc09b75bd1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4c67ae0e3f84f28bd684a81d0a6020c = $(`<div id="html_b4c67ae0e3f84f28bd684a81d0a6020c" style="width: 100.0%; height: 100.0%;">Honduras Total Cases:2080</div>`)[0];
+            popup_9d96ee0aa0344f739d892acc09b75bd1.setContent(html_b4c67ae0e3f84f28bd684a81d0a6020c);
+        
+
+        circle_marker_ad14cd81a76d4ffeab08b30cb9bf13c4.bindPopup(popup_9d96ee0aa0344f739d892acc09b75bd1)
+        ;
+
+        
+    
+    
+            var circle_marker_be7e37db568a4522a3e72925838d1ee7 = L.circleMarker(
+                [22.2793278, 114.16281310000001],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_3efef842df314c49b934695728ff9c7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9722b1c34427403c9628763d57acaecb = $(`<div id="html_9722b1c34427403c9628763d57acaecb" style="width: 100.0%; height: 100.0%;">Hong Kong Total Cases:1051</div>`)[0];
+            popup_3efef842df314c49b934695728ff9c7f.setContent(html_9722b1c34427403c9628763d57acaecb);
+        
+
+        circle_marker_be7e37db568a4522a3e72925838d1ee7.bindPopup(popup_3efef842df314c49b934695728ff9c7f)
+        ;
+
+        
+    
+    
+            var circle_marker_e92781b2a579497988d8abdec058f61b = L.circleMarker(
+                [47.1817585, 19.5060937],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_b876c014131042acb3dd6b6194e84da0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89dc4a1ee56246c995e43e717e603253 = $(`<div id="html_89dc4a1ee56246c995e43e717e603253" style="width: 100.0%; height: 100.0%;">Hungary Total Cases:3341</div>`)[0];
+            popup_b876c014131042acb3dd6b6194e84da0.setContent(html_89dc4a1ee56246c995e43e717e603253);
+        
+
+        circle_marker_e92781b2a579497988d8abdec058f61b.bindPopup(popup_b876c014131042acb3dd6b6194e84da0)
+        ;
+
+        
+    
+    
+            var circle_marker_ae1e03e7abce497fbf0ab9634026ea28 = L.circleMarker(
+                [64.9841821, -18.1059013],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_109163628a3e4c4b9dbac7e84daf824c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f660b8fce451418da00d887bba519141 = $(`<div id="html_f660b8fce451418da00d887bba519141" style="width: 100.0%; height: 100.0%;">Iceland Total Cases:1802</div>`)[0];
+            popup_109163628a3e4c4b9dbac7e84daf824c.setContent(html_f660b8fce451418da00d887bba519141);
+        
+
+        circle_marker_ae1e03e7abce497fbf0ab9634026ea28.bindPopup(popup_109163628a3e4c4b9dbac7e84daf824c)
+        ;
+
+        
+    
+    
+            var circle_marker_7d7a1412021d4343ac35ca7ec944a11c = L.circleMarker(
+                [22.3511148, 78.6677428],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_0f62b518b2714d07bdfc72f3b61b6e07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46aab63c83494a87acbb7fa106d83c62 = $(`<div id="html_46aab63c83494a87acbb7fa106d83c62" style="width: 100.0%; height: 100.0%;">India Total Cases:78055</div>`)[0];
+            popup_0f62b518b2714d07bdfc72f3b61b6e07.setContent(html_46aab63c83494a87acbb7fa106d83c62);
+        
+
+        circle_marker_7d7a1412021d4343ac35ca7ec944a11c.bindPopup(popup_0f62b518b2714d07bdfc72f3b61b6e07)
+        ;
+
+        
+    
+    
+            var circle_marker_6cf7b13a28d248a7a80a424d6815d793 = L.circleMarker(
+                [-2.4833826, 117.89028529999999],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_03181c6a126a410889d566c65a569017 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc88b74fb952400f87f3f337cc3cd9f6 = $(`<div id="html_fc88b74fb952400f87f3f337cc3cd9f6" style="width: 100.0%; height: 100.0%;">Indonesia Total Cases:15438</div>`)[0];
+            popup_03181c6a126a410889d566c65a569017.setContent(html_fc88b74fb952400f87f3f337cc3cd9f6);
+        
+
+        circle_marker_6cf7b13a28d248a7a80a424d6815d793.bindPopup(popup_03181c6a126a410889d566c65a569017)
+        ;
+
+        
+    
+    
+            var circle_marker_6c122b522c0f44389c72a4703fa5ce64 = L.circleMarker(
+                [32.6475314, 54.56435160000001],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_6de3a39f39644d338d58d1602bebaebf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c326c81766334b0fb1f2658494923a5a = $(`<div id="html_c326c81766334b0fb1f2658494923a5a" style="width: 100.0%; height: 100.0%;">Iran Total Cases:112725</div>`)[0];
+            popup_6de3a39f39644d338d58d1602bebaebf.setContent(html_c326c81766334b0fb1f2658494923a5a);
+        
+
+        circle_marker_6c122b522c0f44389c72a4703fa5ce64.bindPopup(popup_6de3a39f39644d338d58d1602bebaebf)
+        ;
+
+        
+    
+    
+            var circle_marker_30abbe547ed14ff98ccc9549ebced2ed = L.circleMarker(
+                [33.0955793, 44.174977500000004],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_1a46f10bdc214555ba157e8a91864d48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a89a68fff36469aa0d7fa2d4cfe522f = $(`<div id="html_3a89a68fff36469aa0d7fa2d4cfe522f" style="width: 100.0%; height: 100.0%;">Iraq Total Cases:3032</div>`)[0];
+            popup_1a46f10bdc214555ba157e8a91864d48.setContent(html_3a89a68fff36469aa0d7fa2d4cfe522f);
+        
+
+        circle_marker_30abbe547ed14ff98ccc9549ebced2ed.bindPopup(popup_1a46f10bdc214555ba157e8a91864d48)
+        ;
+
+        
+    
+    
+            var circle_marker_1b9dd5c119d84bcdb3116b9dd077dd81 = L.circleMarker(
+                [52.865196, -7.9794599],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_e7b1cd85d1484346bd4d6e1c66d6cdf3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dcc168ac052441e486199b90cca0c566 = $(`<div id="html_dcc168ac052441e486199b90cca0c566" style="width: 100.0%; height: 100.0%;">Ireland Total Cases:23401</div>`)[0];
+            popup_e7b1cd85d1484346bd4d6e1c66d6cdf3.setContent(html_dcc168ac052441e486199b90cca0c566);
+        
+
+        circle_marker_1b9dd5c119d84bcdb3116b9dd077dd81.bindPopup(popup_e7b1cd85d1484346bd4d6e1c66d6cdf3)
+        ;
+
+        
+    
+    
+            var circle_marker_ac3d10d8c1c442bfb65a074bf54e8f37 = L.circleMarker(
+                [31.531311300000002, 34.8667654],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_8a5cc810b60344b4934a2787c6408b0f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_411318428a5841ed9ea4d33776251e76 = $(`<div id="html_411318428a5841ed9ea4d33776251e76" style="width: 100.0%; height: 100.0%;">Israel Total Cases:16548</div>`)[0];
+            popup_8a5cc810b60344b4934a2787c6408b0f.setContent(html_411318428a5841ed9ea4d33776251e76);
+        
+
+        circle_marker_ac3d10d8c1c442bfb65a074bf54e8f37.bindPopup(popup_8a5cc810b60344b4934a2787c6408b0f)
+        ;
+
+        
+    
+    
+            var circle_marker_9481d1209de74648a5954123f0c406b9 = L.circleMarker(
+                [42.6384261, 12.674297],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_5614eeda202b4d40b1203e2a632fdcf4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1067423c3b034052ba8bdd7fd9eb9a3e = $(`<div id="html_1067423c3b034052ba8bdd7fd9eb9a3e" style="width: 100.0%; height: 100.0%;">Italy Total Cases:222104</div>`)[0];
+            popup_5614eeda202b4d40b1203e2a632fdcf4.setContent(html_1067423c3b034052ba8bdd7fd9eb9a3e);
+        
+
+        circle_marker_9481d1209de74648a5954123f0c406b9.bindPopup(popup_5614eeda202b4d40b1203e2a632fdcf4)
+        ;
+
+        
+    
+    
+            var circle_marker_9571a3b81e7d48a78c0af1f6398ec1d8 = L.circleMarker(
+                [18.115295800000002, -77.1598454610168],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_7d716ff5be9c45e18a4c25bb526225d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9949928645694640bc9a91b9ff86340f = $(`<div id="html_9949928645694640bc9a91b9ff86340f" style="width: 100.0%; height: 100.0%;">Jamaica Total Cases:507</div>`)[0];
+            popup_7d716ff5be9c45e18a4c25bb526225d0.setContent(html_9949928645694640bc9a91b9ff86340f);
+        
+
+        circle_marker_9571a3b81e7d48a78c0af1f6398ec1d8.bindPopup(popup_7d716ff5be9c45e18a4c25bb526225d0)
+        ;
+
+        
+    
+    
+            var circle_marker_4477556891da45c68e5eb23ad3a2e66d = L.circleMarker(
+                [36.5748441, 139.2394179],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_9ff07e10059c452b8e7eabba1d334d28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c56869b0c20b47aab9590598a416e86a = $(`<div id="html_c56869b0c20b47aab9590598a416e86a" style="width: 100.0%; height: 100.0%;">Japan Total Cases:15968</div>`)[0];
+            popup_9ff07e10059c452b8e7eabba1d334d28.setContent(html_c56869b0c20b47aab9590598a416e86a);
+        
+
+        circle_marker_4477556891da45c68e5eb23ad3a2e66d.bindPopup(popup_9ff07e10059c452b8e7eabba1d334d28)
+        ;
+
+        
+    
+    
+            var circle_marker_fdc60db4d5b848499e87809b8eeb0de5 = L.circleMarker(
+                [31.1667049, 36.941628],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_c1466802a3e947deaae6a989057bb36c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84a4d12e937e4840a81a0d7cc1a2a44b = $(`<div id="html_84a4d12e937e4840a81a0d7cc1a2a44b" style="width: 100.0%; height: 100.0%;">Jordan Total Cases:582</div>`)[0];
+            popup_c1466802a3e947deaae6a989057bb36c.setContent(html_84a4d12e937e4840a81a0d7cc1a2a44b);
+        
+
+        circle_marker_fdc60db4d5b848499e87809b8eeb0de5.bindPopup(popup_c1466802a3e947deaae6a989057bb36c)
+        ;
+
+        
+    
+    
+            var circle_marker_49c3a0f5141746bfa4dc713fa1dd66cb = L.circleMarker(
+                [1.4419683, 38.431397499999996],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_62f7ba1f5de34156b80706ab69b65b2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a334eb630beb4085bbb2305551590736 = $(`<div id="html_a334eb630beb4085bbb2305551590736" style="width: 100.0%; height: 100.0%;">Kenya Total Cases:737</div>`)[0];
+            popup_62f7ba1f5de34156b80706ab69b65b2b.setContent(html_a334eb630beb4085bbb2305551590736);
+        
+
+        circle_marker_49c3a0f5141746bfa4dc713fa1dd66cb.bindPopup(popup_62f7ba1f5de34156b80706ab69b65b2b)
+        ;
+
+        
+    
+    
+            var circle_marker_faa80f00715f4fbebf52994e1f8cc594 = L.circleMarker(
+                [36.638391999999996, 127.69611880000001],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_7957727f133f44abacb0c3b484192beb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62f71f5f51c14fa8b625e27b8e994778 = $(`<div id="html_62f71f5f51c14fa8b625e27b8e994778" style="width: 100.0%; height: 100.0%;">South Korea Total Cases:10962</div>`)[0];
+            popup_7957727f133f44abacb0c3b484192beb.setContent(html_62f71f5f51c14fa8b625e27b8e994778);
+        
+
+        circle_marker_faa80f00715f4fbebf52994e1f8cc594.bindPopup(popup_7957727f133f44abacb0c3b484192beb)
+        ;
+
+        
+    
+    
+            var circle_marker_952215ab41814326bb3a474102b1274d = L.circleMarker(
+                [29.2733964, 47.4979476],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_a0c443a77dd44989ad494667a0f862a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_596330f90cb94c12ad9a4d1676b047df = $(`<div id="html_596330f90cb94c12ad9a4d1676b047df" style="width: 100.0%; height: 100.0%;">Kuwait Total Cases:11028</div>`)[0];
+            popup_a0c443a77dd44989ad494667a0f862a0.setContent(html_596330f90cb94c12ad9a4d1676b047df);
+        
+
+        circle_marker_952215ab41814326bb3a474102b1274d.bindPopup(popup_a0c443a77dd44989ad494667a0f862a0)
+        ;
+
+        
+    
+    
+            var circle_marker_1c0eec6ee32d403cab411b306c4b7c25 = L.circleMarker(
+                [41.5089324, 74.724091],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_1b749af1d05a444ca729363dbc06de17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6767faf1decc4980a354b6b0f03298dc = $(`<div id="html_6767faf1decc4980a354b6b0f03298dc" style="width: 100.0%; height: 100.0%;">Kyrgyzstan Total Cases:1044</div>`)[0];
+            popup_1b749af1d05a444ca729363dbc06de17.setContent(html_6767faf1decc4980a354b6b0f03298dc);
+        
+
+        circle_marker_1c0eec6ee32d403cab411b306c4b7c25.bindPopup(popup_1b749af1d05a444ca729363dbc06de17)
+        ;
+
+        
+    
+    
+            var circle_marker_b793e16002c847f18c6e997f7c2d5008 = L.circleMarker(
+                [56.8406494, 24.7537645],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_fd8df1ac62c943bf8a9807195d3de709 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1b73112d5bc41b391ac647941c2df48 = $(`<div id="html_f1b73112d5bc41b391ac647941c2df48" style="width: 100.0%; height: 100.0%;">Latvia Total Cases:951</div>`)[0];
+            popup_fd8df1ac62c943bf8a9807195d3de709.setContent(html_f1b73112d5bc41b391ac647941c2df48);
+        
+
+        circle_marker_b793e16002c847f18c6e997f7c2d5008.bindPopup(popup_fd8df1ac62c943bf8a9807195d3de709)
+        ;
+
+        
+    
+    
+            var circle_marker_4f4e11391fee4ee68e4516984bd8dd75 = L.circleMarker(
+                [33.875062899999996, 35.843409],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_95296849a5a64318891c85eaac2143d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a22f6e183e149c18a7d559ac5200d87 = $(`<div id="html_4a22f6e183e149c18a7d559ac5200d87" style="width: 100.0%; height: 100.0%;">Lebanon Total Cases:878</div>`)[0];
+            popup_95296849a5a64318891c85eaac2143d3.setContent(html_4a22f6e183e149c18a7d559ac5200d87);
+        
+
+        circle_marker_4f4e11391fee4ee68e4516984bd8dd75.bindPopup(popup_95296849a5a64318891c85eaac2143d3)
+        ;
+
+        
+    
+    
+            var circle_marker_436263b6db134de4b0f235ff7f244bb7 = L.circleMarker(
+                [-29.6039267, 28.335019300000003],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_90840e2ae4824190a046c4ff92cad70d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98962e2639494c3aa6dfe77ed24b0c97 = $(`<div id="html_98962e2639494c3aa6dfe77ed24b0c97" style="width: 100.0%; height: 100.0%;">Lesotho Total Cases:1</div>`)[0];
+            popup_90840e2ae4824190a046c4ff92cad70d.setContent(html_98962e2639494c3aa6dfe77ed24b0c97);
+        
+
+        circle_marker_436263b6db134de4b0f235ff7f244bb7.bindPopup(popup_90840e2ae4824190a046c4ff92cad70d)
+        ;
+
+        
+    
+    
+            var circle_marker_93cd23608b9f4181b2513e8a02a05d3c = L.circleMarker(
+                [5.7499721, -9.3658524],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_b510403d9b304efd9ec3098066c227ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_657aacad26c147ecbeb58e38ac2784c3 = $(`<div id="html_657aacad26c147ecbeb58e38ac2784c3" style="width: 100.0%; height: 100.0%;">Liberia Total Cases:213</div>`)[0];
+            popup_b510403d9b304efd9ec3098066c227ce.setContent(html_657aacad26c147ecbeb58e38ac2784c3);
+        
+
+        circle_marker_93cd23608b9f4181b2513e8a02a05d3c.bindPopup(popup_b510403d9b304efd9ec3098066c227ce)
+        ;
+
+        
+    
+    
+            var circle_marker_faa6ce078eb84f7e893921d8efd2c641 = L.circleMarker(
+                [26.8234472, 18.1236723],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_6afaebcbd55e4ba79c200ceb346e4928 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e73207addc740a4ad7bb1f539e1eed7 = $(`<div id="html_1e73207addc740a4ad7bb1f539e1eed7" style="width: 100.0%; height: 100.0%;">Libya Total Cases:64</div>`)[0];
+            popup_6afaebcbd55e4ba79c200ceb346e4928.setContent(html_1e73207addc740a4ad7bb1f539e1eed7);
+        
+
+        circle_marker_faa6ce078eb84f7e893921d8efd2c641.bindPopup(popup_6afaebcbd55e4ba79c200ceb346e4928)
+        ;
+
+        
+    
+    
+            var circle_marker_47c408afb209453184a03416bebb19de = L.circleMarker(
+                [47.1416307, 9.553152699999998],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_4932b7a7fbb74aa1b1d7584d786378aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa9d620cb49f42d49e63a44089d41b05 = $(`<div id="html_fa9d620cb49f42d49e63a44089d41b05" style="width: 100.0%; height: 100.0%;">Liechtenstein Total Cases:82</div>`)[0];
+            popup_4932b7a7fbb74aa1b1d7584d786378aa.setContent(html_fa9d620cb49f42d49e63a44089d41b05);
+        
+
+        circle_marker_47c408afb209453184a03416bebb19de.bindPopup(popup_4932b7a7fbb74aa1b1d7584d786378aa)
+        ;
+
+        
+    
+    
+            var circle_marker_2d2acdea4dc34c4d8530005b295fdc28 = L.circleMarker(
+                [55.350000300000005, 23.7499997],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_7dd9c9ea30304811ba81a90789786a04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2ccf2b2957b44c59fad2fc76f40b29e = $(`<div id="html_a2ccf2b2957b44c59fad2fc76f40b29e" style="width: 100.0%; height: 100.0%;">Lithuania Total Cases:1505</div>`)[0];
+            popup_7dd9c9ea30304811ba81a90789786a04.setContent(html_a2ccf2b2957b44c59fad2fc76f40b29e);
+        
+
+        circle_marker_2d2acdea4dc34c4d8530005b295fdc28.bindPopup(popup_7dd9c9ea30304811ba81a90789786a04)
+        ;
+
+        
+    
+    
+            var circle_marker_8615b369fed64e8ea590ed1c265a2ca9 = L.circleMarker(
+                [49.8158683, 6.1296751],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_c8afefadf1074ef797012bd6aa1b45ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c1906dc6031453ba646a6987a18eff9 = $(`<div id="html_4c1906dc6031453ba646a6987a18eff9" style="width: 100.0%; height: 100.0%;">Luxembourg Total Cases:3904</div>`)[0];
+            popup_c8afefadf1074ef797012bd6aa1b45ff.setContent(html_4c1906dc6031453ba646a6987a18eff9);
+        
+
+        circle_marker_8615b369fed64e8ea590ed1c265a2ca9.bindPopup(popup_c8afefadf1074ef797012bd6aa1b45ff)
+        ;
+
+        
+    
+    
+            var circle_marker_452ee7dbf3ff49c9b1d7261dbd2aad0d = L.circleMarker(
+                [-18.9249604, 46.441642200000004],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_60cb5d9cc74c446da80d806e3c4ebacc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13e444ac1ba94ac8bbbf91cc0deeb167 = $(`<div id="html_13e444ac1ba94ac8bbbf91cc0deeb167" style="width: 100.0%; height: 100.0%;">Madagascar Total Cases:212</div>`)[0];
+            popup_60cb5d9cc74c446da80d806e3c4ebacc.setContent(html_13e444ac1ba94ac8bbbf91cc0deeb167);
+        
+
+        circle_marker_452ee7dbf3ff49c9b1d7261dbd2aad0d.bindPopup(popup_60cb5d9cc74c446da80d806e3c4ebacc)
+        ;
+
+        
+    
+    
+            var circle_marker_bf1b3a3820404852a02ab0704a977374 = L.circleMarker(
+                [-13.2687204, 33.9301963],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_720689c1f11f4c1196e251d2fa5a9524 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09fff6096f574f2d99a8bfd430483b4d = $(`<div id="html_09fff6096f574f2d99a8bfd430483b4d" style="width: 100.0%; height: 100.0%;">Malawi Total Cases:63</div>`)[0];
+            popup_720689c1f11f4c1196e251d2fa5a9524.setContent(html_09fff6096f574f2d99a8bfd430483b4d);
+        
+
+        circle_marker_bf1b3a3820404852a02ab0704a977374.bindPopup(popup_720689c1f11f4c1196e251d2fa5a9524)
+        ;
+
+        
+    
+    
+            var circle_marker_7ae55e33579b49d28f8d67e63ffe6a06 = L.circleMarker(
+                [4.5693754, 102.2656823],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_5de244cf8a0e4d22ad2d7d5d377ad227 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e2169194e814261adcc76ac9a4f0516 = $(`<div id="html_1e2169194e814261adcc76ac9a4f0516" style="width: 100.0%; height: 100.0%;">Malaysia Total Cases:6779</div>`)[0];
+            popup_5de244cf8a0e4d22ad2d7d5d377ad227.setContent(html_1e2169194e814261adcc76ac9a4f0516);
+        
+
+        circle_marker_7ae55e33579b49d28f8d67e63ffe6a06.bindPopup(popup_5de244cf8a0e4d22ad2d7d5d377ad227)
+        ;
+
+        
+    
+    
+            var circle_marker_7bece8eb77064e8f96c58915ef1fcd79 = L.circleMarker(
+                [4.7064352, 73.3287853],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_498622f3ea7b4df68c9295f02726bb3f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bfacb973b4346fc972261d2be60a309 = $(`<div id="html_0bfacb973b4346fc972261d2be60a309" style="width: 100.0%; height: 100.0%;">Maldives Total Cases:955</div>`)[0];
+            popup_498622f3ea7b4df68c9295f02726bb3f.setContent(html_0bfacb973b4346fc972261d2be60a309);
+        
+
+        circle_marker_7bece8eb77064e8f96c58915ef1fcd79.bindPopup(popup_498622f3ea7b4df68c9295f02726bb3f)
+        ;
+
+        
+    
+    
+            var circle_marker_0a6951148ca341ff9751cfdd4c7f8fa5 = L.circleMarker(
+                [16.3700359, -2.2900238999999996],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_3f2bfaf85a66465f92cd78fd1687f799 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_098f36df2e874958a14eff974c997522 = $(`<div id="html_098f36df2e874958a14eff974c997522" style="width: 100.0%; height: 100.0%;">Mali Total Cases:758</div>`)[0];
+            popup_3f2bfaf85a66465f92cd78fd1687f799.setContent(html_098f36df2e874958a14eff974c997522);
+        
+
+        circle_marker_0a6951148ca341ff9751cfdd4c7f8fa5.bindPopup(popup_3f2bfaf85a66465f92cd78fd1687f799)
+        ;
+
+        
+    
+    
+            var circle_marker_4edeb15c9d6c443986bc1c3954794230 = L.circleMarker(
+                [35.888599299999996, 14.4476911],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_7c56142b96eb4200b8ca65134d8a431f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3c10fa520544bceada60ce90dd7abfb = $(`<div id="html_f3c10fa520544bceada60ce90dd7abfb" style="width: 100.0%; height: 100.0%;">Malta Total Cases:508</div>`)[0];
+            popup_7c56142b96eb4200b8ca65134d8a431f.setContent(html_f3c10fa520544bceada60ce90dd7abfb);
+        
+
+        circle_marker_4edeb15c9d6c443986bc1c3954794230.bindPopup(popup_7c56142b96eb4200b8ca65134d8a431f)
+        ;
+
+        
+    
+    
+            var circle_marker_0c7a282267a74323ac94c7ee3a0dd5d8 = L.circleMarker(
+                [14.6113732, -60.9620777],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_5bafb6ce9e474c39a7a824057d4d6d6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7dcf9a0cd74496f92648a35c2b263a7 = $(`<div id="html_e7dcf9a0cd74496f92648a35c2b263a7" style="width: 100.0%; height: 100.0%;">Martinique Total Cases:187</div>`)[0];
+            popup_5bafb6ce9e474c39a7a824057d4d6d6f.setContent(html_e7dcf9a0cd74496f92648a35c2b263a7);
+        
+
+        circle_marker_0c7a282267a74323ac94c7ee3a0dd5d8.bindPopup(popup_5bafb6ce9e474c39a7a824057d4d6d6f)
+        ;
+
+        
+    
+    
+            var circle_marker_2e2ae3dc65234a5eab682a393b044f99 = L.circleMarker(
+                [20.254038199999997, -9.2399263],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_62fbe2c02f9b43ef9c3b4014c78657db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd740f91b5614b9b8739c5ce662c0027 = $(`<div id="html_fd740f91b5614b9b8739c5ce662c0027" style="width: 100.0%; height: 100.0%;">Mauritania Total Cases:9</div>`)[0];
+            popup_62fbe2c02f9b43ef9c3b4014c78657db.setContent(html_fd740f91b5614b9b8739c5ce662c0027);
+        
+
+        circle_marker_2e2ae3dc65234a5eab682a393b044f99.bindPopup(popup_62fbe2c02f9b43ef9c3b4014c78657db)
+        ;
+
+        
+    
+    
+            var circle_marker_7bd3716ba59749069ca62904011ae440 = L.circleMarker(
+                [-20.2759451, 57.5703566],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_1bbd1f3b7fde4d89b05d1b3e23067e3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_584b588b24e24f0490dacd1d6e2d45f7 = $(`<div id="html_584b588b24e24f0490dacd1d6e2d45f7" style="width: 100.0%; height: 100.0%;">Mauritius Total Cases:332</div>`)[0];
+            popup_1bbd1f3b7fde4d89b05d1b3e23067e3e.setContent(html_584b588b24e24f0490dacd1d6e2d45f7);
+        
+
+        circle_marker_7bd3716ba59749069ca62904011ae440.bindPopup(popup_1bbd1f3b7fde4d89b05d1b3e23067e3e)
+        ;
+
+        
+    
+    
+            var circle_marker_50acf830e611468b90018e8619eb355a = L.circleMarker(
+                [-12.823048, 45.1520755],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_8f05b797ba6645e589fe1c347e4faa74 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb731e72246e4417a1276d6a027287ab = $(`<div id="html_bb731e72246e4417a1276d6a027287ab" style="width: 100.0%; height: 100.0%;">Mayotte Total Cases:1143</div>`)[0];
+            popup_8f05b797ba6645e589fe1c347e4faa74.setContent(html_bb731e72246e4417a1276d6a027287ab);
+        
+
+        circle_marker_50acf830e611468b90018e8619eb355a.bindPopup(popup_8f05b797ba6645e589fe1c347e4faa74)
+        ;
+
+        
+    
+    
+            var circle_marker_180514d7e08d43ce8e5f27caf047dc8c = L.circleMarker(
+                [19.4326296, -99.1331785],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_4cdd78bc44e74114b03ea90fa79a47a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4fdfe82b9e2b4015af9184716e06046c = $(`<div id="html_4fdfe82b9e2b4015af9184716e06046c" style="width: 100.0%; height: 100.0%;">Mexico Total Cases:38324</div>`)[0];
+            popup_4cdd78bc44e74114b03ea90fa79a47a4.setContent(html_4fdfe82b9e2b4015af9184716e06046c);
+        
+
+        circle_marker_180514d7e08d43ce8e5f27caf047dc8c.bindPopup(popup_4cdd78bc44e74114b03ea90fa79a47a4)
+        ;
+
+        
+    
+    
+            var circle_marker_664aba36daf54e01ab5f24ddcac7f4d6 = L.circleMarker(
+                [47.28796079999999, 28.5670941],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_83f59d841e3c4422a5369ce5ed68d723 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3ec720ff4d6495990fe06746b809851 = $(`<div id="html_d3ec720ff4d6495990fe06746b809851" style="width: 100.0%; height: 100.0%;">Moldova Total Cases:5406</div>`)[0];
+            popup_83f59d841e3c4422a5369ce5ed68d723.setContent(html_d3ec720ff4d6495990fe06746b809851);
+        
+
+        circle_marker_664aba36daf54e01ab5f24ddcac7f4d6.bindPopup(popup_83f59d841e3c4422a5369ce5ed68d723)
+        ;
+
+        
+    
+    
+            var circle_marker_2b9a965af343402f8e02f7cd80431dd3 = L.circleMarker(
+                [43.7323492, 7.4276832],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_80122acb735449a8b6749dd389475e58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f93892c2f67245efa6a4333b351ace81 = $(`<div id="html_f93892c2f67245efa6a4333b351ace81" style="width: 100.0%; height: 100.0%;">Monaco Total Cases:96</div>`)[0];
+            popup_80122acb735449a8b6749dd389475e58.setContent(html_f93892c2f67245efa6a4333b351ace81);
+        
+
+        circle_marker_2b9a965af343402f8e02f7cd80431dd3.bindPopup(popup_80122acb735449a8b6749dd389475e58)
+        ;
+
+        
+    
+    
+            var circle_marker_4a8420fed455490baf9a2e457b1c55a3 = L.circleMarker(
+                [46.825038799999994, 103.8499736],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_5486416105994683bac6a803fd401d9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f08ddd4ec24040dc9c6d03a91f8eaeac = $(`<div id="html_f08ddd4ec24040dc9c6d03a91f8eaeac" style="width: 100.0%; height: 100.0%;">Mongolia Total Cases:42</div>`)[0];
+            popup_5486416105994683bac6a803fd401d9c.setContent(html_f08ddd4ec24040dc9c6d03a91f8eaeac);
+        
+
+        circle_marker_4a8420fed455490baf9a2e457b1c55a3.bindPopup(popup_5486416105994683bac6a803fd401d9c)
+        ;
+
+        
+    
+    
+            var circle_marker_12d3a7a8231d4ca58eb5db66485975b4 = L.circleMarker(
+                [16.7417041, -62.19168440000001],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_67eccb7605ad45e394bd372841d81f22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8553a3c6392d429495a708180c93fdee = $(`<div id="html_8553a3c6392d429495a708180c93fdee" style="width: 100.0%; height: 100.0%;">Montserrat Total Cases:11</div>`)[0];
+            popup_67eccb7605ad45e394bd372841d81f22.setContent(html_8553a3c6392d429495a708180c93fdee);
+        
+
+        circle_marker_12d3a7a8231d4ca58eb5db66485975b4.bindPopup(popup_67eccb7605ad45e394bd372841d81f22)
+        ;
+
+        
+    
+    
+            var circle_marker_18943dd6266d4079979eceabca59de35 = L.circleMarker(
+                [31.1728205, -7.3362482],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_6d42f698a9984387835c32c534c5fbde = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ffe4c32388f4acfa17839ae1cdf9a27 = $(`<div id="html_1ffe4c32388f4acfa17839ae1cdf9a27" style="width: 100.0%; height: 100.0%;">Morocco Total Cases:6512</div>`)[0];
+            popup_6d42f698a9984387835c32c534c5fbde.setContent(html_1ffe4c32388f4acfa17839ae1cdf9a27);
+        
+
+        circle_marker_18943dd6266d4079979eceabca59de35.bindPopup(popup_6d42f698a9984387835c32c534c5fbde)
+        ;
+
+        
+    
+    
+            var circle_marker_e365a7c80e8e45f9a216941948ab93b9 = L.circleMarker(
+                [-19.302232999999998, 34.9144977],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_33f3e9709f2a4687ac8179c11bfeee03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_562228a793fd4c26bb132034b90c3481 = $(`<div id="html_562228a793fd4c26bb132034b90c3481" style="width: 100.0%; height: 100.0%;">Mozambique Total Cases:104</div>`)[0];
+            popup_33f3e9709f2a4687ac8179c11bfeee03.setContent(html_562228a793fd4c26bb132034b90c3481);
+        
+
+        circle_marker_e365a7c80e8e45f9a216941948ab93b9.bindPopup(popup_33f3e9709f2a4687ac8179c11bfeee03)
+        ;
+
+        
+    
+    
+            var circle_marker_98da96c551174b82a4961cb80b212aaa = L.circleMarker(
+                [17.1750495, 95.9999652],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_35c3d89a37464c8bb861cde285e89529 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c556ace333f490ca8f00b38f7b07137 = $(`<div id="html_9c556ace333f490ca8f00b38f7b07137" style="width: 100.0%; height: 100.0%;">Myanmar Total Cases:181</div>`)[0];
+            popup_35c3d89a37464c8bb861cde285e89529.setContent(html_9c556ace333f490ca8f00b38f7b07137);
+        
+
+        circle_marker_98da96c551174b82a4961cb80b212aaa.bindPopup(popup_35c3d89a37464c8bb861cde285e89529)
+        ;
+
+        
+    
+    
+            var circle_marker_a11773a4d3c04442b35595b8ae292d3b = L.circleMarker(
+                [-23.2335499, 17.323110699999997],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_c21443c8836143b3b87b13e6f49e9ff2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_facc8bb5404545b8b67b8eeef0538e9e = $(`<div id="html_facc8bb5404545b8b67b8eeef0538e9e" style="width: 100.0%; height: 100.0%;">Namibia Total Cases:16</div>`)[0];
+            popup_c21443c8836143b3b87b13e6f49e9ff2.setContent(html_facc8bb5404545b8b67b8eeef0538e9e);
+        
+
+        circle_marker_a11773a4d3c04442b35595b8ae292d3b.bindPopup(popup_c21443c8836143b3b87b13e6f49e9ff2)
+        ;
+
+        
+    
+    
+            var circle_marker_212cbf077aa2493ba2d755bf07767948 = L.circleMarker(
+                [28.108392900000002, 84.0917139],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_a306edc72578482aaf54bd8d9af0aa57 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ffede3410e847cf82f6df0d595949fb = $(`<div id="html_8ffede3410e847cf82f6df0d595949fb" style="width: 100.0%; height: 100.0%;">Nepal Total Cases:243</div>`)[0];
+            popup_a306edc72578482aaf54bd8d9af0aa57.setContent(html_8ffede3410e847cf82f6df0d595949fb);
+        
+
+        circle_marker_212cbf077aa2493ba2d755bf07767948.bindPopup(popup_a306edc72578482aaf54bd8d9af0aa57)
+        ;
+
+        
+    
+    
+            var circle_marker_c01936ac97974286b7f47e1a7b21efa8 = L.circleMarker(
+                [52.500169799999995, 5.7480820999999995],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_61e520ba99e94747ac6885d50a8596fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c60428feb7f248ac9ba370f2ad308592 = $(`<div id="html_c60428feb7f248ac9ba370f2ad308592" style="width: 100.0%; height: 100.0%;">Netherlands Total Cases:43410</div>`)[0];
+            popup_61e520ba99e94747ac6885d50a8596fb.setContent(html_c60428feb7f248ac9ba370f2ad308592);
+        
+
+        circle_marker_c01936ac97974286b7f47e1a7b21efa8.bindPopup(popup_61e520ba99e94747ac6885d50a8596fb)
+        ;
+
+        
+    
+    
+            var circle_marker_c8681e40f2f34e03bd2c6863596c546d = L.circleMarker(
+                [-20.4542886, 164.55660583077983],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_58225f1822a44f99b47f003fb4ded85d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a14c3129022c4e73837b34f57a2c445b = $(`<div id="html_a14c3129022c4e73837b34f57a2c445b" style="width: 100.0%; height: 100.0%;">New Caledonia Total Cases:18</div>`)[0];
+            popup_58225f1822a44f99b47f003fb4ded85d.setContent(html_a14c3129022c4e73837b34f57a2c445b);
+        
+
+        circle_marker_c8681e40f2f34e03bd2c6863596c546d.bindPopup(popup_58225f1822a44f99b47f003fb4ded85d)
+        ;
+
+        
+    
+    
+            var circle_marker_441af902ed8441dbb5544ab2cd808458 = L.circleMarker(
+                [-41.5000831, 172.83440769999999],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_d7b0869bc95c4c68a777304b2a9c99ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7f0c6c61d5748bf8f4b0b43e9a16573 = $(`<div id="html_a7f0c6c61d5748bf8f4b0b43e9a16573" style="width: 100.0%; height: 100.0%;">New Zealand Total Cases:1497</div>`)[0];
+            popup_d7b0869bc95c4c68a777304b2a9c99ff.setContent(html_a7f0c6c61d5748bf8f4b0b43e9a16573);
+        
+
+        circle_marker_441af902ed8441dbb5544ab2cd808458.bindPopup(popup_d7b0869bc95c4c68a777304b2a9c99ff)
+        ;
+
+        
+    
+    
+            var circle_marker_9b64bd7ecc92466ea3efb27a9106fee7 = L.circleMarker(
+                [12.609015699999999, -85.29369109999999],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_ea60ffd33665489a9736d9d665e137c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f8781708f4f471f99ae29d57f07c4bc = $(`<div id="html_7f8781708f4f471f99ae29d57f07c4bc" style="width: 100.0%; height: 100.0%;">Nicaragua Total Cases:25</div>`)[0];
+            popup_ea60ffd33665489a9736d9d665e137c8.setContent(html_7f8781708f4f471f99ae29d57f07c4bc);
+        
+
+        circle_marker_9b64bd7ecc92466ea3efb27a9106fee7.bindPopup(popup_ea60ffd33665489a9736d9d665e137c8)
+        ;
+
+        
+    
+    
+            var circle_marker_cb894b6af8a9468b8ec9ff0edafa158f = L.circleMarker(
+                [17.7356214, 9.323843199999999],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_f791bdcb31b842b1a0f011f78b8a6bcf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_557b8e4d507648489429288bc8eaf072 = $(`<div id="html_557b8e4d507648489429288bc8eaf072" style="width: 100.0%; height: 100.0%;">Niger Total Cases:854</div>`)[0];
+            popup_f791bdcb31b842b1a0f011f78b8a6bcf.setContent(html_557b8e4d507648489429288bc8eaf072);
+        
+
+        circle_marker_cb894b6af8a9468b8ec9ff0edafa158f.bindPopup(popup_f791bdcb31b842b1a0f011f78b8a6bcf)
+        ;
+
+        
+    
+    
+            var circle_marker_0f91842fe60c442db5b9e470370c1a39 = L.circleMarker(
+                [9.6000359, 7.999972099999999],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_114771c2b69f4ad5b2aaede0780dcf3a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46d9b76fabbe4daabe67d87c5444b05c = $(`<div id="html_46d9b76fabbe4daabe67d87c5444b05c" style="width: 100.0%; height: 100.0%;">Nigeria Total Cases:4787</div>`)[0];
+            popup_114771c2b69f4ad5b2aaede0780dcf3a.setContent(html_46d9b76fabbe4daabe67d87c5444b05c);
+        
+
+        circle_marker_0f91842fe60c442db5b9e470370c1a39.bindPopup(popup_114771c2b69f4ad5b2aaede0780dcf3a)
+        ;
+
+        
+    
+    
+            var circle_marker_68b0bb98ee324c29a56c601097e0b0af = L.circleMarker(
+                [14.1490205, 145.21345248318926],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_1a22ff2fac60489784b5cedbfb53da7c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2069e40644344598f51afb4347fa36f = $(`<div id="html_b2069e40644344598f51afb4347fa36f" style="width: 100.0%; height: 100.0%;">Northern Mariana Islands Total Cases:19</div>`)[0];
+            popup_1a22ff2fac60489784b5cedbfb53da7c.setContent(html_b2069e40644344598f51afb4347fa36f);
+        
+
+        circle_marker_68b0bb98ee324c29a56c601097e0b0af.bindPopup(popup_1a22ff2fac60489784b5cedbfb53da7c)
+        ;
+
+        
+    
+    
+            var circle_marker_608573091e5a4a7c9f12644e476f6a37 = L.circleMarker(
+                [64.5731537, 11.52803643954819],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_5b3ff72d448242939b6636e04be2f960 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1739c08cf704046bf336278eeb30c58 = $(`<div id="html_e1739c08cf704046bf336278eeb30c58" style="width: 100.0%; height: 100.0%;">Norway Total Cases:8168</div>`)[0];
+            popup_5b3ff72d448242939b6636e04be2f960.setContent(html_e1739c08cf704046bf336278eeb30c58);
+        
+
+        circle_marker_608573091e5a4a7c9f12644e476f6a37.bindPopup(popup_5b3ff72d448242939b6636e04be2f960)
+        ;
+
+        
+    
+    
+            var circle_marker_51727f40eec14a5d85a33a9715017209 = L.circleMarker(
+                [21.000028699999998, 57.00369010000001],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_9646e9b86ca2456a914680a863af40bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b99cc11f430b40f4b9b0836da68b7209 = $(`<div id="html_b99cc11f430b40f4b9b0836da68b7209" style="width: 100.0%; height: 100.0%;">Oman Total Cases:4019</div>`)[0];
+            popup_9646e9b86ca2456a914680a863af40bd.setContent(html_b99cc11f430b40f4b9b0836da68b7209);
+        
+
+        circle_marker_51727f40eec14a5d85a33a9715017209.bindPopup(popup_9646e9b86ca2456a914680a863af40bd)
+        ;
+
+        
+    
+    
+            var circle_marker_a77a04942fa34adebdcb4286e210dd81 = L.circleMarker(
+                [30.3308401, 71.247499],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_424f65bad7ba42eb93fe860581e2957b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8d433ee30ca4bb48767b2d19c031aa2 = $(`<div id="html_c8d433ee30ca4bb48767b2d19c031aa2" style="width: 100.0%; height: 100.0%;">Pakistan Total Cases:34336</div>`)[0];
+            popup_424f65bad7ba42eb93fe860581e2957b.setContent(html_c8d433ee30ca4bb48767b2d19c031aa2);
+        
+
+        circle_marker_a77a04942fa34adebdcb4286e210dd81.bindPopup(popup_424f65bad7ba42eb93fe860581e2957b)
+        ;
+
+        
+    
+    
+            var circle_marker_8e38930eec554c1c9e79f15da15a1f71 = L.circleMarker(
+                [31.94696655, 35.27386547291496],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_455b87bc22bd4b3f8964a78913133a07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0f45a51e055459cb1ec230376497af8 = $(`<div id="html_e0f45a51e055459cb1ec230376497af8" style="width: 100.0%; height: 100.0%;">Palestine Total Cases:375</div>`)[0];
+            popup_455b87bc22bd4b3f8964a78913133a07.setContent(html_e0f45a51e055459cb1ec230376497af8);
+        
+
+        circle_marker_8e38930eec554c1c9e79f15da15a1f71.bindPopup(popup_455b87bc22bd4b3f8964a78913133a07)
+        ;
+
+        
+    
+    
+            var circle_marker_ba856aef390e4ae0b0d147dc5310d0c6 = L.circleMarker(
+                [8.559559, -81.1308434],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_91ed7d21e8b94004bcc85cf72908ca85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fcc79995ccc24777b96c0a20ff931ec0 = $(`<div id="html_fcc79995ccc24777b96c0a20ff931ec0" style="width: 100.0%; height: 100.0%;">Panama Total Cases:8783</div>`)[0];
+            popup_91ed7d21e8b94004bcc85cf72908ca85.setContent(html_fcc79995ccc24777b96c0a20ff931ec0);
+        
+
+        circle_marker_ba856aef390e4ae0b0d147dc5310d0c6.bindPopup(popup_91ed7d21e8b94004bcc85cf72908ca85)
+        ;
+
+        
+    
+    
+            var circle_marker_4454adbc0dfd49939e3d8b423738bcbd = L.circleMarker(
+                [-5.6816069, 144.2489081],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_5a6044d78e8c48f685bef00c15e66527 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cbf4429c78114dcc8f03d798d0eb42b1 = $(`<div id="html_cbf4429c78114dcc8f03d798d0eb42b1" style="width: 100.0%; height: 100.0%;">Papua New Guinea Total Cases:8</div>`)[0];
+            popup_5a6044d78e8c48f685bef00c15e66527.setContent(html_cbf4429c78114dcc8f03d798d0eb42b1);
+        
+
+        circle_marker_4454adbc0dfd49939e3d8b423738bcbd.bindPopup(popup_5a6044d78e8c48f685bef00c15e66527)
+        ;
+
+        
+    
+    
+            var circle_marker_2b5b9b28b9644eaf988082c6b724844b = L.circleMarker(
+                [-23.3165935, -58.169344499999994],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_a06f70301faa4c8e98fb833cb9ea549e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52909a9da12444a589c38fe39bc7fff3 = $(`<div id="html_52909a9da12444a589c38fe39bc7fff3" style="width: 100.0%; height: 100.0%;">Paraguay Total Cases:740</div>`)[0];
+            popup_a06f70301faa4c8e98fb833cb9ea549e.setContent(html_52909a9da12444a589c38fe39bc7fff3);
+        
+
+        circle_marker_2b5b9b28b9644eaf988082c6b724844b.bindPopup(popup_a06f70301faa4c8e98fb833cb9ea549e)
+        ;
+
+        
+    
+    
+            var circle_marker_0994467cc26642b5be19e3c9a5310d10 = L.circleMarker(
+                [-6.8699697, -75.0458515],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_ddecb4106c734dd49ad537f9851b6af4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c62352ba9c1c4e9baa81d48ca67cfded = $(`<div id="html_c62352ba9c1c4e9baa81d48ca67cfded" style="width: 100.0%; height: 100.0%;">Peru Total Cases:76306</div>`)[0];
+            popup_ddecb4106c734dd49ad537f9851b6af4.setContent(html_c62352ba9c1c4e9baa81d48ca67cfded);
+        
+
+        circle_marker_0994467cc26642b5be19e3c9a5310d10.bindPopup(popup_ddecb4106c734dd49ad537f9851b6af4)
+        ;
+
+        
+    
+    
+            var circle_marker_f6a519266bf5452083fe15063dffa849 = L.circleMarker(
+                [12.750348599999999, 122.7312101],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_d3b439f0d07f44a792d1b22fcc889660 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45be3769d77f4a99b94753e9bcc50104 = $(`<div id="html_45be3769d77f4a99b94753e9bcc50104" style="width: 100.0%; height: 100.0%;">Philippines Total Cases:11618</div>`)[0];
+            popup_d3b439f0d07f44a792d1b22fcc889660.setContent(html_45be3769d77f4a99b94753e9bcc50104);
+        
+
+        circle_marker_f6a519266bf5452083fe15063dffa849.bindPopup(popup_d3b439f0d07f44a792d1b22fcc889660)
+        ;
+
+        
+    
+    
+            var circle_marker_40d72ad93ad44dadbacef81748cdde83 = L.circleMarker(
+                [52.215933, 19.134422],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_ff45223e449a46c3bf144e7cc129330c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51460f17337a4c14a02ea37b178b3a80 = $(`<div id="html_51460f17337a4c14a02ea37b178b3a80" style="width: 100.0%; height: 100.0%;">Poland Total Cases:17204</div>`)[0];
+            popup_ff45223e449a46c3bf144e7cc129330c.setContent(html_51460f17337a4c14a02ea37b178b3a80);
+        
+
+        circle_marker_40d72ad93ad44dadbacef81748cdde83.bindPopup(popup_ff45223e449a46c3bf144e7cc129330c)
+        ;
+
+        
+    
+    
+            var circle_marker_9114d8553cf64b2ba960f1d33c5485f4 = L.circleMarker(
+                [40.0332629, -7.889626299999999],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_eed9a5a980c34f3682a5732098ab3c0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e549ff57312b41d2a9a21daf34ce147a = $(`<div id="html_e549ff57312b41d2a9a21daf34ce147a" style="width: 100.0%; height: 100.0%;">Portugal Total Cases:28132</div>`)[0];
+            popup_eed9a5a980c34f3682a5732098ab3c0d.setContent(html_e549ff57312b41d2a9a21daf34ce147a);
+        
+
+        circle_marker_9114d8553cf64b2ba960f1d33c5485f4.bindPopup(popup_eed9a5a980c34f3682a5732098ab3c0d)
+        ;
+
+        
+    
+    
+            var circle_marker_12d848636ffe46ddb64e053250130861 = L.circleMarker(
+                [18.2214149, -66.41328179513847],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_906d103794fa47788926e65288c789d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f86caa0291c43218dd3baba5e3d330e = $(`<div id="html_9f86caa0291c43218dd3baba5e3d330e" style="width: 100.0%; height: 100.0%;">Puerto Rico Total Cases:2329</div>`)[0];
+            popup_906d103794fa47788926e65288c789d3.setContent(html_9f86caa0291c43218dd3baba5e3d330e);
+        
+
+        circle_marker_12d848636ffe46ddb64e053250130861.bindPopup(popup_906d103794fa47788926e65288c789d3)
+        ;
+
+        
+    
+    
+            var circle_marker_48b19da3c7a04cc4a55abb6610eda23c = L.circleMarker(
+                [25.3336984, 51.2295295],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_85a682bf9d284a90b5a97d99a1e9b471 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9a91c18ab2443b8b2e3204397e007b8 = $(`<div id="html_b9a91c18ab2443b8b2e3204397e007b8" style="width: 100.0%; height: 100.0%;">Qatar Total Cases:26539</div>`)[0];
+            popup_85a682bf9d284a90b5a97d99a1e9b471.setContent(html_b9a91c18ab2443b8b2e3204397e007b8);
+        
+
+        circle_marker_48b19da3c7a04cc4a55abb6610eda23c.bindPopup(popup_85a682bf9d284a90b5a97d99a1e9b471)
+        ;
+
+        
+    
+    
+            var circle_marker_3abbfa23415c46ca9b1aac1a0140b609 = L.circleMarker(
+                [-21.1309332, 55.526577100000004],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_5bbbe0f124ae4a1fbb98cd1d1444f549 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f762ea0574dd42d0bfca6864b0abba53 = $(`<div id="html_f762ea0574dd42d0bfca6864b0abba53" style="width: 100.0%; height: 100.0%;">Reunion Total Cases:439</div>`)[0];
+            popup_5bbbe0f124ae4a1fbb98cd1d1444f549.setContent(html_f762ea0574dd42d0bfca6864b0abba53);
+        
+
+        circle_marker_3abbfa23415c46ca9b1aac1a0140b609.bindPopup(popup_5bbbe0f124ae4a1fbb98cd1d1444f549)
+        ;
+
+        
+    
+    
+            var circle_marker_d06dfcd084154c97bae85eb9923426fd = L.circleMarker(
+                [45.98521289999999, 24.6859225],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_bcdd2615eeab4471b03316695555c680 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5998d230bd574dfe88f731b89bd68b32 = $(`<div id="html_5998d230bd574dfe88f731b89bd68b32" style="width: 100.0%; height: 100.0%;">Romania Total Cases:16002</div>`)[0];
+            popup_bcdd2615eeab4471b03316695555c680.setContent(html_5998d230bd574dfe88f731b89bd68b32);
+        
+
+        circle_marker_d06dfcd084154c97bae85eb9923426fd.bindPopup(popup_bcdd2615eeab4471b03316695555c680)
+        ;
+
+        
+    
+    
+            var circle_marker_24d0d2187a494b96a1711024e10a39b1 = L.circleMarker(
+                [64.6863136, 97.7453061],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_8a690ba90b6e4a218ed5cc696f307b6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d4c07be4606432fb8dad7d7dfb29fa9 = $(`<div id="html_2d4c07be4606432fb8dad7d7dfb29fa9" style="width: 100.0%; height: 100.0%;">Russia Total Cases:242271</div>`)[0];
+            popup_8a690ba90b6e4a218ed5cc696f307b6f.setContent(html_2d4c07be4606432fb8dad7d7dfb29fa9);
+        
+
+        circle_marker_24d0d2187a494b96a1711024e10a39b1.bindPopup(popup_8a690ba90b6e4a218ed5cc696f307b6f)
+        ;
+
+        
+    
+    
+            var circle_marker_f87603ae06c84e99a86e1b72a3c8afac = L.circleMarker(
+                [-1.9646631, 30.064435800000002],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_1a22320eca7f40929c221a1bf14c857a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23e11244945e43af8e615312e90dd6e0 = $(`<div id="html_23e11244945e43af8e615312e90dd6e0" style="width: 100.0%; height: 100.0%;">Rwanda Total Cases:287</div>`)[0];
+            popup_1a22320eca7f40929c221a1bf14c857a.setContent(html_23e11244945e43af8e615312e90dd6e0);
+        
+
+        circle_marker_f87603ae06c84e99a86e1b72a3c8afac.bindPopup(popup_1a22320eca7f40929c221a1bf14c857a)
+        ;
+
+        
+    
+    
+            var circle_marker_c42a0560b7e845228e1e59f42e6b2ba3 = L.circleMarker(
+                [17.250512, -62.6725973],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_1b4639e51f7648df89504bb602cd31d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc4913abdae1423b8a91aea5aa15957c = $(`<div id="html_cc4913abdae1423b8a91aea5aa15957c" style="width: 100.0%; height: 100.0%;">Saint Kitts and Nevis Total Cases:15</div>`)[0];
+            popup_1b4639e51f7648df89504bb602cd31d6.setContent(html_cc4913abdae1423b8a91aea5aa15957c);
+        
+
+        circle_marker_c42a0560b7e845228e1e59f42e6b2ba3.bindPopup(popup_1b4639e51f7648df89504bb602cd31d6)
+        ;
+
+        
+    
+    
+            var circle_marker_ef7620b99e944e1ea7f63bcb9acd3907 = L.circleMarker(
+                [13.8250489, -60.975035999999996],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_12055e4a02184d248b0c9a2aff3db5b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3e05bc02687464ba44cc517e6b9dd90 = $(`<div id="html_b3e05bc02687464ba44cc517e6b9dd90" style="width: 100.0%; height: 100.0%;">Saint Lucia Total Cases:18</div>`)[0];
+            popup_12055e4a02184d248b0c9a2aff3db5b2.setContent(html_b3e05bc02687464ba44cc517e6b9dd90);
+        
+
+        circle_marker_ef7620b99e944e1ea7f63bcb9acd3907.bindPopup(popup_12055e4a02184d248b0c9a2aff3db5b2)
+        ;
+
+        
+    
+    
+            var circle_marker_c33084c2a88d4ac0847ba31d050c1d44 = L.circleMarker(
+                [12.90447, -61.2765569],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_aa0c8be71e934e18bb5f2a960cbcc43b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b75c3fedf2d4ec094b52e8e0a994218 = $(`<div id="html_1b75c3fedf2d4ec094b52e8e0a994218" style="width: 100.0%; height: 100.0%;">Saint Vincent and the Grenadines Total Cases:17</div>`)[0];
+            popup_aa0c8be71e934e18bb5f2a960cbcc43b.setContent(html_1b75c3fedf2d4ec094b52e8e0a994218);
+        
+
+        circle_marker_c33084c2a88d4ac0847ba31d050c1d44.bindPopup(popup_aa0c8be71e934e18bb5f2a960cbcc43b)
+        ;
+
+        
+    
+    
+            var circle_marker_aa4fa926cdf54f5080bb389d0d9a277f = L.circleMarker(
+                [43.945862299999995, 12.458306],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_1ce50130e55a4005ac418ba48cd2c83b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ceb185d6be54b848251c392b98e49d0 = $(`<div id="html_0ceb185d6be54b848251c392b98e49d0" style="width: 100.0%; height: 100.0%;">San Marino Total Cases:643</div>`)[0];
+            popup_1ce50130e55a4005ac418ba48cd2c83b.setContent(html_0ceb185d6be54b848251c392b98e49d0);
+        
+
+        circle_marker_aa4fa926cdf54f5080bb389d0d9a277f.bindPopup(popup_1ce50130e55a4005ac418ba48cd2c83b)
+        ;
+
+        
+    
+    
+            var circle_marker_065d78b39faa4c26b4150aa18cd0e0d7 = L.circleMarker(
+                [0.8875497999999999, 6.964871799999999],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_5486581b148a42f8be6a0215960c441a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9d1fcd947fd461580b0ab7edf480b0d = $(`<div id="html_b9d1fcd947fd461580b0ab7edf480b0d" style="width: 100.0%; height: 100.0%;">Sao Tome and Principe Total Cases:220</div>`)[0];
+            popup_5486581b148a42f8be6a0215960c441a.setContent(html_b9d1fcd947fd461580b0ab7edf480b0d);
+        
+
+        circle_marker_065d78b39faa4c26b4150aa18cd0e0d7.bindPopup(popup_5486581b148a42f8be6a0215960c441a)
+        ;
+
+        
+    
+    
+            var circle_marker_e224f87ada5c48478438e5bd706bc2bf = L.circleMarker(
+                [25.624261800000003, 42.352832799999995],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_fb522b8c703d4f98b02758e8ba24ab48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f663576779d14a758771031d136d3603 = $(`<div id="html_f663576779d14a758771031d136d3603" style="width: 100.0%; height: 100.0%;">Saudi Arabia Total Cases:44830</div>`)[0];
+            popup_fb522b8c703d4f98b02758e8ba24ab48.setContent(html_f663576779d14a758771031d136d3603);
+        
+
+        circle_marker_e224f87ada5c48478438e5bd706bc2bf.bindPopup(popup_fb522b8c703d4f98b02758e8ba24ab48)
+        ;
+
+        
+    
+    
+            var circle_marker_9258a290d3a0475baab093b0b3164f3a = L.circleMarker(
+                [14.475060699999998, -14.452961199999999],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_0fabe85ecf84465ea8d94617e73b8537 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2bb63241173740a09e08ebede0f6936b = $(`<div id="html_2bb63241173740a09e08ebede0f6936b" style="width: 100.0%; height: 100.0%;">Senegal Total Cases:2105</div>`)[0];
+            popup_0fabe85ecf84465ea8d94617e73b8537.setContent(html_2bb63241173740a09e08ebede0f6936b);
+        
+
+        circle_marker_9258a290d3a0475baab093b0b3164f3a.bindPopup(popup_0fabe85ecf84465ea8d94617e73b8537)
+        ;
+
+        
+    
+    
+            var circle_marker_f7bfe63cf6f5421d9a3a6e74bd184aae = L.circleMarker(
+                [-4.6574976999999995, 55.45401460000001],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_c40d4b3a17ad4d83b39feb168947d8fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c8a19bcbb1d46d9b6e48ceadbbc936c = $(`<div id="html_8c8a19bcbb1d46d9b6e48ceadbbc936c" style="width: 100.0%; height: 100.0%;">Seychelles Total Cases:11</div>`)[0];
+            popup_c40d4b3a17ad4d83b39feb168947d8fb.setContent(html_8c8a19bcbb1d46d9b6e48ceadbbc936c);
+        
+
+        circle_marker_f7bfe63cf6f5421d9a3a6e74bd184aae.bindPopup(popup_c40d4b3a17ad4d83b39feb168947d8fb)
+        ;
+
+        
+    
+    
+            var circle_marker_72d6867fb4ea42f4ac915150aa1a90c2 = L.circleMarker(
+                [8.6400349, -11.8400269],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_c11f8f8df77e4e248958e0830f0a022a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5fbc00c1aca47429b04a91276fb65ab = $(`<div id="html_d5fbc00c1aca47429b04a91276fb65ab" style="width: 100.0%; height: 100.0%;">Sierra Leone Total Cases:387</div>`)[0];
+            popup_c11f8f8df77e4e248958e0830f0a022a.setContent(html_d5fbc00c1aca47429b04a91276fb65ab);
+        
+
+        circle_marker_72d6867fb4ea42f4ac915150aa1a90c2.bindPopup(popup_c11f8f8df77e4e248958e0830f0a022a)
+        ;
+
+        
+    
+    
+            var circle_marker_1b2758b7fa9d47ffad169b6ec94dc292 = L.circleMarker(
+                [1.357107, 103.81949920000001],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_2d4ac2d5153d46dca22d0b5ab1906eb4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f2bd524dfa84e7fb5fe1e075446c421 = $(`<div id="html_9f2bd524dfa84e7fb5fe1e075446c421" style="width: 100.0%; height: 100.0%;">Singapore Total Cases:25346</div>`)[0];
+            popup_2d4ac2d5153d46dca22d0b5ab1906eb4.setContent(html_9f2bd524dfa84e7fb5fe1e075446c421);
+        
+
+        circle_marker_1b2758b7fa9d47ffad169b6ec94dc292.bindPopup(popup_2d4ac2d5153d46dca22d0b5ab1906eb4)
+        ;
+
+        
+    
+    
+            var circle_marker_77f06373562a4f8fb73982267e8dabda = L.circleMarker(
+                [48.74115220000001, 19.4528646],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_09259a3f4924432dbcd1d3a813a15e0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66e2424a3f1e45c68e10c313660c26a7 = $(`<div id="html_66e2424a3f1e45c68e10c313660c26a7" style="width: 100.0%; height: 100.0%;">Slovakia Total Cases:1469</div>`)[0];
+            popup_09259a3f4924432dbcd1d3a813a15e0a.setContent(html_66e2424a3f1e45c68e10c313660c26a7);
+        
+
+        circle_marker_77f06373562a4f8fb73982267e8dabda.bindPopup(popup_09259a3f4924432dbcd1d3a813a15e0a)
+        ;
+
+        
+    
+    
+            var circle_marker_d75ee5a8a33f447d8672965bfb2af7d4 = L.circleMarker(
+                [45.813311299999995, 14.4808369],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_d9ae7258898d4bcebbe47b76c741b0aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8e3a07bd2d443e7980003a4f599039c = $(`<div id="html_a8e3a07bd2d443e7980003a4f599039c" style="width: 100.0%; height: 100.0%;">Slovenia Total Cases:1463</div>`)[0];
+            popup_d9ae7258898d4bcebbe47b76c741b0aa.setContent(html_a8e3a07bd2d443e7980003a4f599039c);
+        
+
+        circle_marker_d75ee5a8a33f447d8672965bfb2af7d4.bindPopup(popup_d9ae7258898d4bcebbe47b76c741b0aa)
+        ;
+
+        
+    
+    
+            var circle_marker_80bd57d83c54425bba071206b77318e6 = L.circleMarker(
+                [8.3676771, 49.083416],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_da5cb28a42174c7aafb736194f051fd7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_273ec38793704e4687a57167b03de9c1 = $(`<div id="html_273ec38793704e4687a57167b03de9c1" style="width: 100.0%; height: 100.0%;">Somalia Total Cases:1219</div>`)[0];
+            popup_da5cb28a42174c7aafb736194f051fd7.setContent(html_273ec38793704e4687a57167b03de9c1);
+        
+
+        circle_marker_80bd57d83c54425bba071206b77318e6.bindPopup(popup_da5cb28a42174c7aafb736194f051fd7)
+        ;
+
+        
+    
+    
+            var circle_marker_9a7cc275a48a4d9ea18b2bbe38e24b38 = L.circleMarker(
+                [-28.816623600000003, 24.991639000000003],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_81e9164d79d74503a828678de4d3add4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73f9e3f91dd940a78948fdbb0f10d250 = $(`<div id="html_73f9e3f91dd940a78948fdbb0f10d250" style="width: 100.0%; height: 100.0%;">South Africa Total Cases:12047</div>`)[0];
+            popup_81e9164d79d74503a828678de4d3add4.setContent(html_73f9e3f91dd940a78948fdbb0f10d250);
+        
+
+        circle_marker_9a7cc275a48a4d9ea18b2bbe38e24b38.bindPopup(popup_81e9164d79d74503a828678de4d3add4)
+        ;
+
+        
+    
+    
+            var circle_marker_fdb41ea87f5f424ea799adf80fad7b89 = L.circleMarker(
+                [39.3262345, -4.838064900000001],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_2f973138a5394e4991d199f28643527e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e908da36632e47f1a5fcd520955e777d = $(`<div id="html_e908da36632e47f1a5fcd520955e777d" style="width: 100.0%; height: 100.0%;">Spain Total Cases:271095</div>`)[0];
+            popup_2f973138a5394e4991d199f28643527e.setContent(html_e908da36632e47f1a5fcd520955e777d);
+        
+
+        circle_marker_fdb41ea87f5f424ea799adf80fad7b89.bindPopup(popup_2f973138a5394e4991d199f28643527e)
+        ;
+
+        
+    
+    
+            var circle_marker_7ad32b29042444a8a152dc1c7a1b503b = L.circleMarker(
+                [7.555494199999999, 80.7137847],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_dd23fbd53a5f4b5cbaff601723bdd871 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d32294b148f4d1a973e6c915ceaf010 = $(`<div id="html_2d32294b148f4d1a973e6c915ceaf010" style="width: 100.0%; height: 100.0%;">Sri Lanka Total Cases:893</div>`)[0];
+            popup_dd23fbd53a5f4b5cbaff601723bdd871.setContent(html_2d32294b148f4d1a973e6c915ceaf010);
+        
+
+        circle_marker_7ad32b29042444a8a152dc1c7a1b503b.bindPopup(popup_dd23fbd53a5f4b5cbaff601723bdd871)
+        ;
+
+        
+    
+    
+            var circle_marker_8232f552e206450d8f2c49e4d523eb82 = L.circleMarker(
+                [14.584444400000002, 29.4917691],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_1aacc51029504095b65f84e0e2bb8f71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d847b0cccc64973858894eea91b05c7 = $(`<div id="html_4d847b0cccc64973858894eea91b05c7" style="width: 100.0%; height: 100.0%;">Sudan Total Cases:1661</div>`)[0];
+            popup_1aacc51029504095b65f84e0e2bb8f71.setContent(html_4d847b0cccc64973858894eea91b05c7);
+        
+
+        circle_marker_8232f552e206450d8f2c49e4d523eb82.bindPopup(popup_1aacc51029504095b65f84e0e2bb8f71)
+        ;
+
+        
+    
+    
+            var circle_marker_c23807c6e17943e49495b0e099f6f7be = L.circleMarker(
+                [4.1413025, -56.07711870000001],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_90864e2ca67946dfa76a0fb29864e457 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_973c6df7cc384ff28f9b1ac2a0938265 = $(`<div id="html_973c6df7cc384ff28f9b1ac2a0938265" style="width: 100.0%; height: 100.0%;">Suriname Total Cases:10</div>`)[0];
+            popup_90864e2ca67946dfa76a0fb29864e457.setContent(html_973c6df7cc384ff28f9b1ac2a0938265);
+        
+
+        circle_marker_c23807c6e17943e49495b0e099f6f7be.bindPopup(popup_90864e2ca67946dfa76a0fb29864e457)
+        ;
+
+        
+    
+    
+            var circle_marker_097f9b15b3d547a3b874e39b6ca50b57 = L.circleMarker(
+                [59.67497120000001, 14.5208584],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_a58801fc240c4a098ff857183b9b76d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49f8db8b686849f7b9c09088aa98e752 = $(`<div id="html_49f8db8b686849f7b9c09088aa98e752" style="width: 100.0%; height: 100.0%;">Sweden Total Cases:27909</div>`)[0];
+            popup_a58801fc240c4a098ff857183b9b76d0.setContent(html_49f8db8b686849f7b9c09088aa98e752);
+        
+
+        circle_marker_097f9b15b3d547a3b874e39b6ca50b57.bindPopup(popup_a58801fc240c4a098ff857183b9b76d0)
+        ;
+
+        
+    
+    
+            var circle_marker_464d308663f443f281a9b4b71c780b39 = L.circleMarker(
+                [46.7985624, 8.231973599999998],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_39a4c6a697654a2f897474723a16d3df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b18eb6210a64cb7a0c011cdb793e36c = $(`<div id="html_8b18eb6210a64cb7a0c011cdb793e36c" style="width: 100.0%; height: 100.0%;">Switzerland Total Cases:30413</div>`)[0];
+            popup_39a4c6a697654a2f897474723a16d3df.setContent(html_8b18eb6210a64cb7a0c011cdb793e36c);
+        
+
+        circle_marker_464d308663f443f281a9b4b71c780b39.bindPopup(popup_39a4c6a697654a2f897474723a16d3df)
+        ;
+
+        
+    
+    
+            var circle_marker_bf60eea26bcc49aeae21fd2d930205ce = L.circleMarker(
+                [34.6401861, 39.0494106],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_53c0319c0d294db3a329485bd744983d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b00090f4a67342ae90a2bf1d2ce4f60e = $(`<div id="html_b00090f4a67342ae90a2bf1d2ce4f60e" style="width: 100.0%; height: 100.0%;">Syria Total Cases:48</div>`)[0];
+            popup_53c0319c0d294db3a329485bd744983d.setContent(html_b00090f4a67342ae90a2bf1d2ce4f60e);
+        
+
+        circle_marker_bf60eea26bcc49aeae21fd2d930205ce.bindPopup(popup_53c0319c0d294db3a329485bd744983d)
+        ;
+
+        
+    
+    
+            var circle_marker_664b67c0b10749e6a462f2813f6c5d86 = L.circleMarker(
+                [23.59829785, 120.8353631381752],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_eb2f3fbf1cf045b6944917ea3a1a3586 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3176ccde66044dc8bb41b9d5feb66056 = $(`<div id="html_3176ccde66044dc8bb41b9d5feb66056" style="width: 100.0%; height: 100.0%;">Taiwan Total Cases:440</div>`)[0];
+            popup_eb2f3fbf1cf045b6944917ea3a1a3586.setContent(html_3176ccde66044dc8bb41b9d5feb66056);
+        
+
+        circle_marker_664b67c0b10749e6a462f2813f6c5d86.bindPopup(popup_eb2f3fbf1cf045b6944917ea3a1a3586)
+        ;
+
+        
+    
+    
+            var circle_marker_fb2c055a44c744d9b88bc6824d28d79d = L.circleMarker(
+                [38.62817329999999, 70.8156541],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_084611db14a04b8f8454fc25fb78ca49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1faf0af280e44572aa62e5c4dce1667b = $(`<div id="html_1faf0af280e44572aa62e5c4dce1667b" style="width: 100.0%; height: 100.0%;">Tajikistan Total Cases:801</div>`)[0];
+            popup_084611db14a04b8f8454fc25fb78ca49.setContent(html_1faf0af280e44572aa62e5c4dce1667b);
+        
+
+        circle_marker_fb2c055a44c744d9b88bc6824d28d79d.bindPopup(popup_084611db14a04b8f8454fc25fb78ca49)
+        ;
+
+        
+    
+    
+            var circle_marker_96905bb555164b0d9edf4f1c44755e27 = L.circleMarker(
+                [14.8971921, 100.83273],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_43b9fe40921842ab84d7650b78925b2c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d94c7ea3749444afbb16268be9e3e817 = $(`<div id="html_d94c7ea3749444afbb16268be9e3e817" style="width: 100.0%; height: 100.0%;">Thailand Total Cases:3017</div>`)[0];
+            popup_43b9fe40921842ab84d7650b78925b2c.setContent(html_d94c7ea3749444afbb16268be9e3e817);
+        
+
+        circle_marker_96905bb555164b0d9edf4f1c44755e27.bindPopup(popup_43b9fe40921842ab84d7650b78925b2c)
+        ;
+
+        
+    
+    
+            var circle_marker_4583fd5a555148208d667e07eee89813 = L.circleMarker(
+                [8.7800265, 1.0199764999999998],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_621e93f5d94e479e967880bd3e730aab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d99b31def7794287818e76aa76da8606 = $(`<div id="html_d99b31def7794287818e76aa76da8606" style="width: 100.0%; height: 100.0%;">Togo Total Cases:219</div>`)[0];
+            popup_621e93f5d94e479e967880bd3e730aab.setContent(html_d99b31def7794287818e76aa76da8606);
+        
+
+        circle_marker_4583fd5a555148208d667e07eee89813.bindPopup(popup_621e93f5d94e479e967880bd3e730aab)
+        ;
+
+        
+    
+    
+            var circle_marker_302cd42f2aa34e27b6eaff707f02a8dc = L.circleMarker(
+                [10.8677845, -60.9821067],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_38e45d30f09c490cb7a08999cd306696 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e67b4fa982e48d4927a3d9efbfd2821 = $(`<div id="html_7e67b4fa982e48d4927a3d9efbfd2821" style="width: 100.0%; height: 100.0%;">Trinidad and Tobago Total Cases:116</div>`)[0];
+            popup_38e45d30f09c490cb7a08999cd306696.setContent(html_7e67b4fa982e48d4927a3d9efbfd2821);
+        
+
+        circle_marker_302cd42f2aa34e27b6eaff707f02a8dc.bindPopup(popup_38e45d30f09c490cb7a08999cd306696)
+        ;
+
+        
+    
+    
+            var circle_marker_9a709051e2384929aa1fec9ce8a13634 = L.circleMarker(
+                [33.8439408, 9.400138],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_7de3427d5e294b49a7a801dcf3d70b30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5bc348b2ad5d4bc89b0a3467774f6f0c = $(`<div id="html_5bc348b2ad5d4bc89b0a3467774f6f0c" style="width: 100.0%; height: 100.0%;">Tunisia Total Cases:1032</div>`)[0];
+            popup_7de3427d5e294b49a7a801dcf3d70b30.setContent(html_5bc348b2ad5d4bc89b0a3467774f6f0c);
+        
+
+        circle_marker_9a709051e2384929aa1fec9ce8a13634.bindPopup(popup_7de3427d5e294b49a7a801dcf3d70b30)
+        ;
+
+        
+    
+    
+            var circle_marker_e406900b5462453eba4264aa304f2304 = L.circleMarker(
+                [38.959759399999996, 34.9249653],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_aa1bffd2da77449d8e70e77bcc1d52cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc8da5b39fd84865b1bac83fafa46acd = $(`<div id="html_fc8da5b39fd84865b1bac83fafa46acd" style="width: 100.0%; height: 100.0%;">Turkey Total Cases:143114</div>`)[0];
+            popup_aa1bffd2da77449d8e70e77bcc1d52cf.setContent(html_fc8da5b39fd84865b1bac83fafa46acd);
+        
+
+        circle_marker_e406900b5462453eba4264aa304f2304.bindPopup(popup_aa1bffd2da77449d8e70e77bcc1d52cf)
+        ;
+
+        
+    
+    
+            var circle_marker_06f359f4bed34198accac3f6512ce834 = L.circleMarker(
+                [1.5333553999999998, 32.2166578],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_5b03b5bc58eb433b8516d0cf5b6e037a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02320c9466734f92acd8080e2c99b73b = $(`<div id="html_02320c9466734f92acd8080e2c99b73b" style="width: 100.0%; height: 100.0%;">Uganda Total Cases:126</div>`)[0];
+            popup_5b03b5bc58eb433b8516d0cf5b6e037a.setContent(html_02320c9466734f92acd8080e2c99b73b);
+        
+
+        circle_marker_06f359f4bed34198accac3f6512ce834.bindPopup(popup_5b03b5bc58eb433b8516d0cf5b6e037a)
+        ;
+
+        
+    
+    
+            var circle_marker_0c35a7e263d84780b0fc313a0e7a8d70 = L.circleMarker(
+                [49.4871968, 31.2718321],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_51b35a96188b417dbb2243b1ab641ecd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14c4370eb24645f48bd628b9ea98c68c = $(`<div id="html_14c4370eb24645f48bd628b9ea98c68c" style="width: 100.0%; height: 100.0%;">Ukraine Total Cases:16425</div>`)[0];
+            popup_51b35a96188b417dbb2243b1ab641ecd.setContent(html_14c4370eb24645f48bd628b9ea98c68c);
+        
+
+        circle_marker_0c35a7e263d84780b0fc313a0e7a8d70.bindPopup(popup_51b35a96188b417dbb2243b1ab641ecd)
+        ;
+
+        
+    
+    
+            var circle_marker_092e88f82d974f84889f931ff8be3594 = L.circleMarker(
+                [24.0002488, 53.999482900000004],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_f27f243b413a4b1dab2011d618e63d89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3253e6a8008476fa34694590121b525 = $(`<div id="html_e3253e6a8008476fa34694590121b525" style="width: 100.0%; height: 100.0%;">United Arab Emirates Total Cases:20386</div>`)[0];
+            popup_f27f243b413a4b1dab2011d618e63d89.setContent(html_e3253e6a8008476fa34694590121b525);
+        
+
+        circle_marker_092e88f82d974f84889f931ff8be3594.bindPopup(popup_f27f243b413a4b1dab2011d618e63d89)
+        ;
+
+        
+    
+    
+            var circle_marker_e28665970b2749f888802e4dc587389e = L.circleMarker(
+                [54.702354500000006, -3.2765752999999997],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_cd3972f4233b4caeac615e4b395d8b64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4ccd33abada43208b4042f8bceaef9b = $(`<div id="html_c4ccd33abada43208b4042f8bceaef9b" style="width: 100.0%; height: 100.0%;">United Kingdom Total Cases:230984</div>`)[0];
+            popup_cd3972f4233b4caeac615e4b395d8b64.setContent(html_c4ccd33abada43208b4042f8bceaef9b);
+        
+
+        circle_marker_e28665970b2749f888802e4dc587389e.bindPopup(popup_cd3972f4233b4caeac615e4b395d8b64)
+        ;
+
+        
+    
+    
+            var circle_marker_9fb7ea7e2a9c438abd046e510094afd1 = L.circleMarker(
+                [39.7837304, -100.4458825],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_2ef30e4f5477442e9b4c01e8b0a80d36 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e35766f23f14bce8d4a0cb3d28c1906 = $(`<div id="html_7e35766f23f14bce8d4a0cb3d28c1906" style="width: 100.0%; height: 100.0%;">USA Total Cases:1423641</div>`)[0];
+            popup_2ef30e4f5477442e9b4c01e8b0a80d36.setContent(html_7e35766f23f14bce8d4a0cb3d28c1906);
+        
+
+        circle_marker_9fb7ea7e2a9c438abd046e510094afd1.bindPopup(popup_2ef30e4f5477442e9b4c01e8b0a80d36)
+        ;
+
+        
+    
+    
+            var circle_marker_31263538a49543649464dab4eea7124c = L.circleMarker(
+                [-32.8755548, -56.0201525],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_d1b885559d944fc5aa3535c393c32d27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03e33063d23b44718d6a5d8aa21f2add = $(`<div id="html_03e33063d23b44718d6a5d8aa21f2add" style="width: 100.0%; height: 100.0%;">Uruguay Total Cases:717</div>`)[0];
+            popup_d1b885559d944fc5aa3535c393c32d27.setContent(html_03e33063d23b44718d6a5d8aa21f2add);
+        
+
+        circle_marker_31263538a49543649464dab4eea7124c.bindPopup(popup_d1b885559d944fc5aa3535c393c32d27)
+        ;
+
+        
+    
+    
+            var circle_marker_934d30c5ad61440492ec636177ac0069 = L.circleMarker(
+                [41.32373, 63.9528098],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_1fcab0cf8a214cdfbbdbe11b6dbe3602 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5cf17fb2c0ea423a8fa31758d070dfe7 = $(`<div id="html_5cf17fb2c0ea423a8fa31758d070dfe7" style="width: 100.0%; height: 100.0%;">Uzbekistan Total Cases:2568</div>`)[0];
+            popup_1fcab0cf8a214cdfbbdbe11b6dbe3602.setContent(html_5cf17fb2c0ea423a8fa31758d070dfe7);
+        
+
+        circle_marker_934d30c5ad61440492ec636177ac0069.bindPopup(popup_1fcab0cf8a214cdfbbdbe11b6dbe3602)
+        ;
+
+        
+    
+    
+            var circle_marker_4cdab2fab32f4f58ad947cb2f9331998 = L.circleMarker(
+                [8.0018709, -66.1109318],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_00b2eaa2fbaa4efeb346de77f15a8b8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5012b72f0694bf8961217d42a3332c0 = $(`<div id="html_b5012b72f0694bf8961217d42a3332c0" style="width: 100.0%; height: 100.0%;">Venezuela Total Cases:423</div>`)[0];
+            popup_00b2eaa2fbaa4efeb346de77f15a8b8e.setContent(html_b5012b72f0694bf8961217d42a3332c0);
+        
+
+        circle_marker_4cdab2fab32f4f58ad947cb2f9331998.bindPopup(popup_00b2eaa2fbaa4efeb346de77f15a8b8e)
+        ;
+
+        
+    
+    
+            var circle_marker_1a8c413c9e964ee78d5a04bc67ca0d7a = L.circleMarker(
+                [24.1797324, -13.7667848],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_0688190627f0400baec5cf5a8ea5c580 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab2f8c7dbe4445faad824a6a9c5527b9 = $(`<div id="html_ab2f8c7dbe4445faad824a6a9c5527b9" style="width: 100.0%; height: 100.0%;">Western Sahara Total Cases:6</div>`)[0];
+            popup_0688190627f0400baec5cf5a8ea5c580.setContent(html_ab2f8c7dbe4445faad824a6a9c5527b9);
+        
+
+        circle_marker_1a8c413c9e964ee78d5a04bc67ca0d7a.bindPopup(popup_0688190627f0400baec5cf5a8ea5c580)
+        ;
+
+        
+    
+    
+            var circle_marker_7c4d58eaab7143a0abac3f3c6be39fae = L.circleMarker(
+                [16.3471243, 47.8915271],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_1eb9be6a81fb4f48a2b436dbadabda0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59d9c3038cd24e63abade5f96321d55a = $(`<div id="html_59d9c3038cd24e63abade5f96321d55a" style="width: 100.0%; height: 100.0%;">Yemen Total Cases:70</div>`)[0];
+            popup_1eb9be6a81fb4f48a2b436dbadabda0e.setContent(html_59d9c3038cd24e63abade5f96321d55a);
+        
+
+        circle_marker_7c4d58eaab7143a0abac3f3c6be39fae.bindPopup(popup_1eb9be6a81fb4f48a2b436dbadabda0e)
+        ;
+
+        
+    
+    
+            var circle_marker_b6783a9eb20b45e98dc95f914e4a50e4 = L.circleMarker(
+                [-14.5186239, 27.5599164],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_fc7a02ba343147a0bc6277524842d46e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5003600135544ec9739d496cac90d3d = $(`<div id="html_f5003600135544ec9739d496cac90d3d" style="width: 100.0%; height: 100.0%;">Zambia Total Cases:446</div>`)[0];
+            popup_fc7a02ba343147a0bc6277524842d46e.setContent(html_f5003600135544ec9739d496cac90d3d);
+        
+
+        circle_marker_b6783a9eb20b45e98dc95f914e4a50e4.bindPopup(popup_fc7a02ba343147a0bc6277524842d46e)
+        ;
+
+        
+    
+    
+            var circle_marker_a29a484021a74d5f96b5dc3adfaf0a96 = L.circleMarker(
+                [-18.4554963, 29.746841399999997],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_795fbfc748c248dcb0fe894193401741);
+        
+    
+        var popup_3665af910e6648d1a60616f139fa36a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f540249096c4da094894ee0d0d66d0b = $(`<div id="html_4f540249096c4da094894ee0d0d66d0b" style="width: 100.0%; height: 100.0%;">Zimbabwe Total Cases:37</div>`)[0];
+            popup_3665af910e6648d1a60616f139fa36a8.setContent(html_4f540249096c4da094894ee0d0d66d0b);
+        
+
+        circle_marker_a29a484021a74d5f96b5dc3adfaf0a96.bindPopup(popup_3665af910e6648d1a60616f139fa36a8)
+        ;
+
+        
+    
+</script>

@@ -1,0 +1,12 @@
+2020-05-17 21:30:44 - ERROR - FileNotFoundError in pandas\_libs\parsers.pyx on line 674
+2020-05-17 21:30:49 - ERROR - FileNotFoundError in pandas\_libs\parsers.pyx on line 674
+2020-05-17 21:33:57 - ERROR - FileNotFoundError in pandas\_libs\parsers.pyx on line 674
+2020-05-17 21:34:51 - ERROR - FileNotFoundError in pandas\_libs\parsers.pyx on line 674
+2020-05-17 21:35:25 - ERROR - FileNotFoundError in pandas\_libs\parsers.pyx on line 674
+2020-05-17 21:41:58 - ERROR - FileNotFoundError in pandas\_libs\parsers.pyx on line 674
+2020-05-17 21:42:00 - ERROR - FileNotFoundError in pandas\_libs\parsers.pyx on line 674
+2020-05-17 21:42:22 - ERROR - FileNotFoundError in pandas\_libs\parsers.pyx on line 674
+2020-05-17 21:44:58 - ERROR - FileNotFoundError in pandas\_libs\parsers.pyx on line 674
+2020-05-17 21:46:08 - ERROR - FileNotFoundError in pandas\_libs\parsers.pyx on line 674
+2020-05-17 21:47:09 - ERROR - KeyError in pandas\_libs\hashtable_class_helper.pxi on line 1627
+2020-05-17 22:28:27 - ERROR - AttributeError in C:\Code\masonite\info\app\http\controllers\geopyController.py on line 37

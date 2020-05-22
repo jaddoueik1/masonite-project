@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Covid-19</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./public/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles -->
+    <link href="public/css/clean-blog.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="/">Covid-19</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/world-statistics">World Statistics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/world-map">World Map</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('public/img/covid-19-stats.jpg')">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="page-heading">
+                        <h1>World statistics</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class='col-lg-8 col-md-10 mx-auto'>
+                <form method="POST" action="/world-statistics" id='sorting'>
+                    {{csrf_field}}
+                    <label for='sortby' title='Choose how to sort your data'>sort by</label>
+                    <select id='sortby' class='dropdown btn-sm sortby-btn btn-secondary dropdown-toggle' title='Choose how to sort your data' name='sortlist' form='sorting'>
+                        <option class='dropdown-item' value='t'>TOTAL CASES</option>
+                        <option class='dropdown-item' value='d'>TOTAL DEATHS</option>
+                        <option class='dropdown-item' value='n'>COUNTRY NAME</option>
+                        <option class='dropdown-item' value='r'>TOTAL RECOVERIES</option>
+                        <option class='dropdown-item' value='a'>ACTIVE CASES</option>
+                    </select>
+                    <label for='asc/dsc' class='asc-dsc-label' title='Ascending or Descending?'>state</label>
+                    <select class='dropdown btn-sm sortby-btn asc-btn btn-secondary dropdown-toggle' id='asc/dsc' title='Ascending or Descending?' name='state' form='sorting'>
+                        <option class='dropdown-item ' value='asc'>Ascending</option>
+                        <option class='dropdown-item ' value='dsc'>Descending</option>
+                    </select>
+                    <input type="submit" value='Sort' class='submit-btn'>
+                </form>
+                <input type="text" id="countrySearch" onkeyup="dynamicSearch()" class='search' placeholder="Search for a country..." title="Type in a country name">
+            </div>
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <table class='table '>
+                    <th>Country Name</th>
+                    <th>Total Cases</th>
+                    <th>Active Cases</th>
+                    <th>Recovered Cases</th>
+                    <th>Total Deaths</th>
+
+                    {% for stat in stats %}
+                    <tr class='table-row '>
+                        <td class='table-country '> <b>{{ stat[0] }}</b></td>
+                        <td> {{ stat[1] }}</td>
+                        <td> {{ stat[2] }}</td>
+                        <td> {{ stat[3] }}</td>
+                        <td> {{ stat[4] }} </td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/coronavirus_info/?page_source=search">
+                                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/coronavirus_info/?page_source=search">
+                                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Copyright &copy; Your Website 2019</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src='js/script.js '></script>
+</body>
+
+</html>
